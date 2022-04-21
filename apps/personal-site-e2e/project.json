@@ -1,0 +1,28 @@
+{
+  "root": "apps/personal-site-e2e",
+  "sourceRoot": "apps/personal-site-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/personal-site-e2e/cypress.json",
+        "devServerTarget": "personal-site:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "personal-site:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/personal-site-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["personal-site"]
+}

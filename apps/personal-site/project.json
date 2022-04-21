@@ -1,6 +1,6 @@
 {
-  "root": "apps/frontend",
-  "sourceRoot": "apps/frontend/src",
+  "root": "apps/personal-site",
+  "sourceRoot": "apps/personal-site/src",
   "projectType": "application",
   "targets": {
     "build": {
@@ -9,14 +9,17 @@
       "defaultConfiguration": "production",
       "options": {
         "compiler": "babel",
-        "outputPath": "dist/apps/frontend",
-        "index": "apps/frontend/src/index.html",
+        "outputPath": "dist/apps/personal-site",
+        "index": "apps/personal-site/src/index.html",
         "baseHref": "/",
-        "main": "apps/frontend/src/main.tsx",
-        "polyfills": "apps/frontend/src/polyfills.ts",
-        "tsConfig": "apps/frontend/tsconfig.app.json",
-        "assets": ["apps/frontend/src/favicon.ico", "apps/frontend/src/assets"],
-        "styles": ["apps/frontend/src/styles.scss"],
+        "main": "apps/personal-site/src/main.tsx",
+        "polyfills": "apps/personal-site/src/polyfills.ts",
+        "tsConfig": "apps/personal-site/tsconfig.app.json",
+        "assets": [
+          "apps/personal-site/src/favicon.ico",
+          "apps/personal-site/src/assets"
+        ],
+        "styles": ["apps/personal-site/src/styles.scss"],
         "scripts": [],
         "webpackConfig": "@nrwl/react/plugins/webpack"
       },
@@ -24,8 +27,8 @@
         "production": {
           "fileReplacements": [
             {
-              "replace": "apps/frontend/src/environments/environment.ts",
-              "with": "apps/frontend/src/environments/environment.prod.ts"
+              "replace": "apps/personal-site/src/environments/environment.ts",
+              "with": "apps/personal-site/src/environments/environment.prod.ts"
             }
           ],
           "optimization": true,
@@ -40,12 +43,12 @@
     "serve": {
       "executor": "@nrwl/web:dev-server",
       "options": {
-        "buildTarget": "frontend:build",
+        "buildTarget": "personal-site:build",
         "hmr": true
       },
       "configurations": {
         "production": {
-          "buildTarget": "frontend:build:production",
+          "buildTarget": "personal-site:build:production",
           "hmr": false
         }
       }
@@ -54,14 +57,14 @@
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["apps/frontend/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": ["apps/personal-site/**/*.{ts,tsx,js,jsx}"]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/frontend"],
+      "outputs": ["coverage/apps/personal-site"],
       "options": {
-        "jestConfig": "apps/frontend/jest.config.js",
+        "jestConfig": "apps/personal-site/jest.config.js",
         "passWithNoTests": true
       }
     }

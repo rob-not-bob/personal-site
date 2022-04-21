@@ -1,7 +1,7 @@
 {
   "version": 2,
   "projects": {
-    "frontend": "apps/frontend",
-    "frontend-e2e": "apps/frontend-e2e"
+    "personal-site": "apps/personal-site",
+    "personal-site-e2e": "apps/personal-site-e2e"
   }
 }
