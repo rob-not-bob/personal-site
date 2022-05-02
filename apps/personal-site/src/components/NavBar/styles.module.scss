@@ -1,0 +1,54 @@
+@import '../../app/vars.scss';
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navlist {
+  list-style-type: none;
+
+  li {
+    display: inline-block;
+    margin-right: 35px;
+  }
+
+  .selectedItem &::after {
+    width: 115%;
+  }
+
+  .navLink {
+    &::after {
+      content: '';
+      position: relative;
+      right: 7.5%;
+      top: 5px;
+      display: block;
+      width: 0%;
+      transition: width 0.125s;
+      height: 3px;
+      border-radius: 2px;
+      background-color: $accent;
+    }
+
+    &:active, &:hover, &:focus {
+      text-decoration: none;
+
+      &::after {
+        width: 115%;
+      }
+    }
+  }
+}
+
+.brand {
+  h2 {
+    font-size: 80px;
+    font-weight: bold;
+  }
+
+  &:hover, &:focus {
+    text-decoration: none;
+  }
+}
