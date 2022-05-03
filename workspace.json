@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "personal-site": "apps/personal-site",
-    "personal-site-e2e": "apps/personal-site-e2e"
+    "personal-site-e2e": "apps/personal-site-e2e",
+    "react": "libs/react"
   }
 }
