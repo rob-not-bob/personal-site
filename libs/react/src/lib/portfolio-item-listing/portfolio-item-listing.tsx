@@ -1,6 +1,6 @@
 import { format } from 'date-fns';
 import { Link } from 'react-router-dom';
-import styles from './portfolio-item.module.scss';
+import styles from './portfolio-item-listing.module.scss';
 
 export interface PortfolioItemProps {
   title: string;
@@ -12,7 +12,7 @@ export interface PortfolioItemProps {
   url: string;
 }
 
-export function PortfolioItem({
+export function PortfolioItemListing({
   title,
   date,
   heroImageUrl,
@@ -34,4 +34,4 @@ export function PortfolioItem({
   );
 }
 
-export default PortfolioItem;
+export default PortfolioItemListing;
