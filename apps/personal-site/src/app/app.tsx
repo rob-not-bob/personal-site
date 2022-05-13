@@ -4,7 +4,7 @@ import { Route, Link } from 'react-router-dom';
 import { NavBar } from '../components';
 import { Portfolio } from './portfolio/portfolio';
 import { sub } from 'date-fns';
-import { PortfolioItemProps } from '@personal-site/react';
+import { PortfolioItem, PortfolioItemProps } from '@personal-site/react';
 
 const PortfolioItems: PortfolioItemProps[] = [
   {
@@ -58,7 +58,7 @@ const PortfolioItems: PortfolioItemProps[] = [
     date: sub(new Date(), { days: 80 }),
     heroImageUrl: '/assets/6.png',
     description: 'This is my personal site.',
-    content: '',
+    content: '## Hello World',
     url: '/posts/6',
   },
 ];
@@ -70,6 +70,9 @@ export function App() {
       {/* START: routes */}
       <Route path="/" exact>
         <Portfolio items={PortfolioItems} />
+      </Route>
+      <Route path="/posts/:id">
+        <PortfolioItem posts={PortfolioItems} />
       </Route>
       <Route
         path="/contact"

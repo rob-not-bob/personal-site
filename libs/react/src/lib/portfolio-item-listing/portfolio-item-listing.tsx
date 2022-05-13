@@ -1,16 +1,7 @@
 import { format } from 'date-fns';
 import { Link } from 'react-router-dom';
 import styles from './portfolio-item-listing.module.scss';
-
-export interface PortfolioItemProps {
-  title: string;
-  author: string;
-  date: Date;
-  heroImageUrl: string;
-  description: string;
-  content: string;
-  url: string;
-}
+import { PortfolioItemProps } from '../portfolio-item/portfolio-item';
 
 export function PortfolioItemListing({
   title,
