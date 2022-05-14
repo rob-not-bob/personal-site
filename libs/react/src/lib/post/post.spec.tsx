@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import { PortfolioItem } from './portfolio-item';
+import Post from './post';
 
-describe('PortfolioItem', () => {
+describe('Post', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<PortfolioItem />);
+    const { baseElement } = render(<Post />);
     expect(baseElement).toBeTruthy();
   });
 });

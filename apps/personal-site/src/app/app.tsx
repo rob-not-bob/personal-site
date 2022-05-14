@@ -4,17 +4,17 @@ import { Route, Link } from 'react-router-dom';
 import { NavBar } from '../components';
 import { Portfolio } from './portfolio/portfolio';
 import { sub } from 'date-fns';
-import { PortfolioItem, PortfolioItemProps } from '@personal-site/react';
+import { Post, PostListingProps } from '@personal-site/react';
 
-const PortfolioItems: PortfolioItemProps[] = [
+const postItems: PostListingProps[] = [
   {
     title: 'Personal Site',
     author: 'Robert Allen',
     date: new Date(),
-    heroImageUrl: '/assets/1.png',
+    heroImageUrl: '/assets/posts/post1/1.png',
     description: 'This is my personal site.',
     content: '',
-    url: '/posts/1',
+    url: '/posts/post1',
   },
   {
     title: 'Flappy Bird',
@@ -69,10 +69,10 @@ export function App() {
       <NavBar />
       {/* START: routes */}
       <Route path="/" exact>
-        <Portfolio items={PortfolioItems} />
+        <Portfolio items={postItems} />
       </Route>
       <Route path="/posts/:id">
-        <PortfolioItem posts={PortfolioItems} />
+        <Post />
       </Route>
       <Route
         path="/contact"
@@ -83,7 +83,6 @@ export function App() {
           </div>
         )}
       />
-      {/* END: routes */}
     </>
   );
 }

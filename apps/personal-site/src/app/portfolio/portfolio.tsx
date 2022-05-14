@@ -1,8 +1,8 @@
 import styles from './portfolio.module.scss';
-import { PortfolioItemListing, PortfolioItemProps } from '@personal-site/react';
+import { PostListing, PostListingProps } from '@personal-site/react';
 
 export interface PortfolioProps {
-  items: PortfolioItemProps[];
+  items: PostListingProps[];
 }
 
 export function Portfolio({ items }: PortfolioProps) {
@@ -11,7 +11,7 @@ export function Portfolio({ items }: PortfolioProps) {
       {items
         .sort((a, b) => Number(b.date) - Number(a.date))
         .map((item) => (
-          <PortfolioItemListing {...item} />
+          <PostListing key={item.date.toISOString()} {...item} />
         ))}
     </div>
   );

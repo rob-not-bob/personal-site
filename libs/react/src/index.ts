@@ -1,2 +1,2 @@
-export * from './lib/portfolio-item-listing/portfolio-item-listing';
-export * from './lib/portfolio-item/portfolio-item';
+export * from './lib/post-listing/post-listing';
+export * from './lib/post/post';

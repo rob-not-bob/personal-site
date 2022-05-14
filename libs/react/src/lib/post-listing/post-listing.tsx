@@ -1,15 +1,24 @@
 import { format } from 'date-fns';
 import { Link } from 'react-router-dom';
-import styles from './portfolio-item-listing.module.scss';
-import { PortfolioItemProps } from '../portfolio-item/portfolio-item';
+import styles from './post-listing.module.scss';
 
-export function PortfolioItemListing({
+export interface PostListingProps {
+  title: string;
+  author: string;
+  date: Date;
+  heroImageUrl: string;
+  description: string;
+  content: string;
+  url: string;
+}
+
+export function PostListing({
   title,
   date,
   heroImageUrl,
   description,
   url,
-}: PortfolioItemProps) {
+}: PostListingProps) {
   const formattedDate = format(date, 'MMM d, yyyy');
   return (
     <div className={styles['container']}>
@@ -25,4 +34,4 @@ export function PortfolioItemListing({
   );
 }
 
-export default PortfolioItemListing;
+export default PostListing;
