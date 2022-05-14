@@ -46,9 +46,7 @@ export function Post() {
   });
 
   return (
-    <div className={styles['container']}>
-      <ReactMarkDown className={styles['markdown-body']} children={markdown} />
-    </div>
+    <ReactMarkDown className={styles['markdown-body']} children={markdown} />
   );
 }
 

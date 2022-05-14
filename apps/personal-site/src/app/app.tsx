@@ -1,6 +1,6 @@
 import './app.scss';
 
-import { Route, Link } from 'react-router-dom';
+import { Route, Link, Switch, BrowserRouter as Router } from 'react-router-dom';
 import { NavBar } from '../components';
 import { Portfolio } from './portfolio/portfolio';
 import { sub } from 'date-fns';
@@ -65,9 +65,8 @@ const postItems: PostListingProps[] = [
 
 export function App() {
   return (
-    <>
+    <Router>
       <NavBar />
-      {/* START: routes */}
       <Route path="/" exact>
         <Portfolio items={postItems} />
       </Route>
@@ -83,7 +82,7 @@ export function App() {
           </div>
         )}
       />
-    </>
+    </Router>
   );
 }
 
