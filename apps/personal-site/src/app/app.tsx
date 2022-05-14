@@ -1,6 +1,6 @@
 import './app.scss';
 
-import { Route, Link, Switch, BrowserRouter as Router } from 'react-router-dom';
+import { Route, BrowserRouter as Router } from 'react-router-dom';
 import { NavBar } from '../components';
 import { Portfolio } from './portfolio/portfolio';
 import { sub } from 'date-fns';
@@ -73,15 +73,6 @@ export function App() {
       <Route path="/posts/:id">
         <Post />
       </Route>
-      <Route
-        path="/contact"
-        exact
-        render={() => (
-          <div>
-            <Link to="/">Click here to go back to root page.</Link>
-          </div>
-        )}
-      />
     </Router>
   );
 }

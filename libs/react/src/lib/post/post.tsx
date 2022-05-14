@@ -40,7 +40,6 @@ export function Post() {
       .then((res) => res.text())
       .then((text) => {
         const post = parsePost(text, `/assets/posts/${id}`);
-        console.warn('post', post);
         setMarkdown(post.markdown);
       });
   });
