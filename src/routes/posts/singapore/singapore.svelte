@@ -1,0 +1,60 @@
+<script>
+  import chinatown from './images/chinatown.webp';
+  import walking_tour_1 from './images/walking_tour_1.webp';
+  import walking_tour_2 from './images/walking_tour_2.webp';
+  import cloud_forest_3 from './images/cloud_forest_3.webp';
+  import cloud_forest_4 from './images/cloud_forest_4.webp';
+  import greenhouse_2 from './images/greenhouse_2.webp';
+  import greenhouse_3 from './images/greenhouse_3.webp';
+  import jewel_2 from './images/jewel_2.webp';
+  import jewel_3 from './images/jewel_3.webp';
+  import selfie from './images/selfie.webp';
+  import supertree_1 from './images/supertree_1.webp';
+</script>
+
+<p>After arriving at my hostel, I ventured out to grab a bite to eat. I quickly discovered that the cost of living in Singapore, the most expensive city in the world, was significantly higher than what I had grown accustomed to in other Southeast Asian countries. It took time for my mindset to adjust and not feel ripped off by the prices.</p>
+
+<p>Determined to make the most of my time in Singapore, I embarked on a self-guided walking tour around the city. The streets were impressive, with stunning architecture and lush greenery.</p>
+
+<img class="photo-row" src="{chinatown}" alt="Chinatown" />
+<img class="photo-row" src="{walking_tour_1}" alt="Walking Tour - Singapore" />
+<img class="photo-row" src="{walking_tour_2}" alt="Walking Tour - Singapore" />
+<span class="caption">Walking Tour</span>
+
+<p>I came across a food lover's paradise in the Chinatown mall. During my stay, this was my favorite spot to eat. I gorged myself on delicious Japanese dishes, including Japanese curry, ramen, and Asahi beer, all in anticipation of my upcoming trip there in a few weeks. I also enjoyed a lot of Strong Zero, an infamous Japanese drink known for its ability to get overconfident tourists drunk.</p>
+
+<p>During my stay, I took the opportunity to stock up on some supplies I had been missing while traveling through other parts of Southeast Asia. I bought deodorant, hairspray, and a pair of scissors to trim my beard—simple luxuries that I had come to appreciate after weeks of traveling. I also finally booked myself a much-needed haircut, as my last one had been in Rome nearly two months prior, and I had been hesitant to visit a hair salon in a less modern part of the world.</p>
+
+<p>I took some time to visit the iconic Gardens by the Bay. I captured countless photos of the famous Supertrees and explored the two greenhouses. The Cloud Forest greenhouse showcased a towering waterfall and lush greenery, while the Flower Dome exhibited a wide variety of exotic plants and flowers from around the world.</p>
+
+<div class="side-by-side photo-row">
+  <img alt="Supertree" src="{supertree_1}">
+  <img alt="Flower Dome Year of The Bunny" src="{greenhouse_2}">
+</div>
+<div class="side-by-side">
+  <img alt="Flower Dome Bunny Sculpture" src="{greenhouse_3}">
+  <img alt="Garden's By The Bay Selfie" src="{selfie}">
+</div>
+<span class="caption">Supertree + Flower Dome Greenhouse at Gardens By the Bay</span>
+
+<p>During my visit, the Cloud Forest greenhouse also featured a collaboration with the upcoming Avatar 2 movie. Na'vi-like creatures were placed throughout the greenhouse, adding a touch of whimsy to the already mystical atmosphere.</p>
+
+<img class="photo-row" src="{cloud_forest_3}" alt="Cloud Forest Walkways" />
+<img class="photo-row" src="{cloud_forest_4}" alt="Cloud Forest Mini Waterfall" />
+<span class="caption">Cloud Forest Greenhouse</span>
+
+<p>On the day of my departure, I left early for the airport to explore The Jewel, an architectural marvel located within Changi Airport. The Jewel boasts a breathtaking indoor garden, shopping, and dining options. Unfortunately, I didn't get a chance to see the famous Rain Vortex waterfall in action. It's the largest indoor waterfall in the world and is the main structure the Jewel is built around. Still, the sheer beauty of the space was worth the trip nonetheless.</p>
+
+<p>As I reflected on my time in Singapore, I couldn't help but compare the high cost of living to the more affordable experiences I had in other Southeast Asian countries. Despite the city's modern marvels, diverse cuisine, and stunning attractions, I still felt ripped off and never got used to the prices. Had I not been fresh off my adventures in other parts of Southeast Asia, I might have enjoyed Singapore more.</p>
+
+<p>Nonetheless, my brief stay in the city left an impression. The city seamlessly blended technology, nature, and cultures within its small borders. It felt too good to be true. It reminded me of my layover at the Qatar airport. I felt as though something this beautiful on this big of scale couldn't be possible without some exploited minority class behind the scenes.</p>
+
+<img class="photo-row" src="{jewel_2}" alt="The Jewel" />
+<img class="photo-row" src="{jewel_3}" alt="The Jewel" />
+<span class="caption">The Jewel at Changi Airport</span>
+
+<p>Its government is authoritarian, but from my limited tourist point of view that seems to have served the country's needs well. It certainly was essential in transforming it into the mega-modern city it is today. With Singapore's small size, it's easy to conceive how a strong-armed government might be the easiest solution for managing the conflicting wants and needs of its citizens within its tiny borders.</p>
+
+<p>I think it works though only because of Singapore's demure size. I don't think it would scale well to the size of the US without eventually devolving closer to China's iron fist style of governing. Singapore shows leanings toward this iron fist style already. It has previously mandated population control, and the government is strict about censoring content shown to its citizens.</p>
+
+<p>In the end, Singapore offered a distinctive experience that contrasted sharply with the more traditional and budget-friendly destinations I had previously explored in Southeast Asia. I was only there for six days, but that was plenty. Although the high cost of living took some getting used to, I enjoyed my time there. It was nice to have access to modern luxuries once again and it is one of the most beautiful cities I've visited.</p>
