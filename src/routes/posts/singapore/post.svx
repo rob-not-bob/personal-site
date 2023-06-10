@@ -2,7 +2,7 @@
 title: Singapore
 author: Robert Allen
 date: 1-19-2023
-heroImageUrl: ./chinatown.webp
+heroImageUrl: ./images/chinatown.webp
 ---
 
 <script>

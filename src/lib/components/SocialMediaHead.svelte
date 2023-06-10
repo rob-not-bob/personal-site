@@ -12,11 +12,7 @@
   <meta property="og:type" content="article" />
   <meta
     property="og:image"
-    content={
-      heroImageUrl.startsWith('/')
-        ? `http://rcallen.net${heroImageUrl}`
-        : heroImageUrl
-    }
+    content={heroImageUrl.startsWith('/') ? `http://rcallen.net${heroImageUrl}` : heroImageUrl}
   />
   <meta property="og:url" content={postUrl} />
   <meta property="twitter:card" content="summary_large_image" />

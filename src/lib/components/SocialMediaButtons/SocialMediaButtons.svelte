@@ -11,62 +11,62 @@
     <p>Share</p>
     <ul>
       <li>
-        <TwitterShareButton url={url} title={title} />
+        <TwitterShareButton {url} {title} />
       </li>
       <li>
-        <FacebookShareButton url={url} />
+        <FacebookShareButton {url} />
       </li>
     </ul>
   </div>
 </div>
 
 <style lang="scss">
-.shareWrapper {
-  max-width: 16.666666%;
-  position: fixed;
-  @media (max-width: 768px) {
-    position: relative;
-    max-width: 100%;
-  }
-}
-
-.share {
-  margin: 0 auto;
-  position: fixed;
-  flex-direction: column;
-  @media (max-width: 768px) {
-    position: relative;
-    flex-direction: row;
-    margin-bottom: 15px;
-
-    p {
-      margin-right: 10px;
+  .shareWrapper {
+    max-width: 16.666666%;
+    position: fixed;
+    @media (max-width: 768px) {
+      position: relative;
+      max-width: 100%;
     }
-    ul {
-      li {
-        display: inline-block;
-        margin-right: 8px;
+  }
+
+  .share {
+    margin: 0 auto;
+    position: fixed;
+    flex-direction: column;
+    @media (max-width: 768px) {
+      position: relative;
+      flex-direction: row;
+      margin-bottom: 15px;
+
+      p {
+        margin-right: 10px;
+      }
+      ul {
+        li {
+          display: inline-block;
+          margin-right: 8px;
+        }
       }
     }
-  }
 
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
 
-    li {
-      margin-bottom: 8px;
+      li {
+        margin-bottom: 8px;
+      }
+    }
+
+    p {
+      color: rgba(0, 0, 0, 0.44);
+      margin-bottom: 10px;
+      font-size: 15.2px;
     }
   }
-
-  p {
-    color: rgba(0, 0, 0, 0.44);
-    margin-bottom: 10px;
-    font-size: 15.2px;
-  }
-}
 </style>
