@@ -1,21 +1,23 @@
-<script lang="ts">
+<script lang="ts" context="module">
   import { parse, format } from 'date-fns';
   import SectionTitle from '$lib/components/SectionTitle.svelte';
   import Card from '$lib/components/Card.svelte';
   import MainHeading from './components/MainHeading.svelte';
+  import { posts } from './posts.json';
 
-  export let data;
-
-  interface PostListingProps {
-    title: string;
-    author: string;
-    date: string;
-    heroImageUrl: string;
-    description: string;
-    url: string;
-  }
-
-  console.warn(data);
+  const postListings = (
+    await Promise.all(
+      posts.map(async (post) => {
+        return {
+          ...post,
+          heroImageUrl: post.heroImageUrl.startsWith('./')
+            ? (await import(/* @vite-ignore */ `${post.heroImageUrl}?url`)).default
+            : post.heroImageUrl,
+          date: format(new Date(post.date), 'MMM d, yyyy')
+        };
+      })
+    )
+  ).sort((a, b) => Number(new Date(b.date)) - Number(new Date(a.date)));
 </script>
 
 <svelte:head>
@@ -29,13 +31,13 @@
   />
   <SectionTitle text="Latest Posts" />
   <div class="container">
-    {#each data.metadata as post (post.title)}
+    {#each postListings as post (post.title)}
       <Card
         backgroundImage={post.heroImageUrl}
         title={post.title}
-        description={post.description ?? 'hi'}
+        description={post.description}
         date={post.date}
-        postHref={post.postHref}
+        postHref={post.href}
         authorName={post.author}
       />
     {/each}
