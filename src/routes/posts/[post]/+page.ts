@@ -1,13 +1,10 @@
 import type { PageLoad } from './$types';
-import postListings from '../../post_listings.json';
-import Singapore from '../singapore/singapore.svelte';
 
-export const load = (() => {
-	const singaporeListing = postListings.listings.find((listing) => {
-		listing.title === 'Singapore';
-	});
+export const load = (async ({ params }) => {
+	const post = await import(`../${params.post}/post.svx`);
+
 	return {
-		...singaporeListing,
-		page: Singapore
+		component: post.default,
+		...post.metadata
 	};
 }) satisfies PageLoad;

@@ -1,0 +1,85 @@
+---
+title: Florence, Naples, and Pompeii
+author: Robert Allen
+date: 11-20-2022
+heroImageUrl: ./santa_maria_del_fiore.webp
+---
+
+<script>
+  import david_butt from './david_butt.webp';
+  import david_front from './david_front.webp';
+  import david_side from './david_side.webp';
+  import frescoe from './frescoe.webp';
+  import hola_bird_2 from './hola_bird_2.webp';
+  import meat_eater from './meat_eater.webp';
+  import naples_crowd from './naples_crowd.webp';
+  import naples_crowd_2 from './naples_crowd_2.webp';
+  import pompeii_entrance from './pompeii_entrance.webp';
+  import pompeii_statue from './pompeii_statue.webp';
+  import santa_maria_del_fiore from './santa_maria_del_fiore.webp';
+  import steak_dinner_crew from './steak_dinner_crew.webp';
+</script>
+
+![The Awe-Inspiring Cathedral of Santa Maria del Fiore]({santa_maria_del_fiore})
+<span class="caption">The Awe-Inspiring Cathedral of Santa Maria del Fiore</span>
+
+After my fantastic stay in Venice, I was off to Florence. After asking my hostel mates, I learned the main things to do in Florence were to see The David and have a Florentine steak. The Florentine steak, for those unaware, is a massive "3-finger thick" slab of steak. Exclusively sold by the kg, enjoying one is not a cheap affair.
+
+## The David
+
+The David is a true sight to behold, with its towering height of over 17 feet and impressive, muscular physique. The chiseled features and determined expression add to its commanding presence. It earns its reputation as it was a step or two up in terms of realism and skill than any other marble statue I had seen previously.
+
+It deserves all of its prestige. I'd recommend booking the earliest slot you can find. I avoided the crowds and had no issues taking pictures from as many angles as I wanted.
+
+![David's Front]({david_front})
+
+<div class="side-by-side">
+  <img alt="David's Side" src="{david_side}">
+  <img alt="David's Butt" src="{david_butt}">
+</div>
+<span class="caption">The David</span>
+
+## Florentine Steak
+
+I booked another Airbnb experience. I had seen many places advertising Florentine steak throughout Florence and I wasn't sure where I would get the best possible experience. They only sold Florentine steak by the kg, so there's no way to enjoy it cheaply unless you split it with friends.
+
+That evening, I met with our host Anna. There were quite a few other people in our group, but I was the youngest. We enjoyed a 7-course dinner with 4 different types of wine throughout the dinner. The food was delicious but the Florentine steak itself, while very good, was overhyped. It was a tasty steak, but I have had much better. The experience overall was fantastic. Each course, besides the steak, was excellent! The steak was great, but it was so overhyped it let me down. If you want to experience it, I'd recommend booking the [Airbnb experience](https://www.airbnb.com/experiences/1892771) as I did. That way you get a variety of food as well. You won’t get a full kg of steak, but the other courses will more than make up for it.
+
+![Dinner Crew]({steak_dinner_crew})
+
+![Chowing down on Florentine Steak]({meat_eater})
+<span class="caption">Florentine Steak Dinner</span>
+
+## Naples
+
+While in Naples, I stayed at a hostel named Tric Trac. I noticed that the types of people I met in this hostel were different from my previous hostels. Naples is still a popular tourist destination but not as much as Rome, Venice, or Florence. It is only slightly off the beaten path. The peak season for tourism was also at its end. All of this meant that the people I met at these hostels were more committed to traveling than average.
+
+I chatted up my new roommates as they arrived. There was Mel, a 31-year-old seasoned traveler. She grew up with half her family in nearby Cypress and spoke enough Italian to navigate the restaurants throughout Naples. Jorge was a 22-year-old Alaskan with a frat-boy attitude. He was a very kind kid, but he was walking the line between being annoying and not. He was extremely close to getting on people's nerves, but for the most part, he was harmless and enthusiastic. His favorite word was “hella”, which he interjected into every other sentence. Maya, a 23-year-old American who loved partying. Craig a 32-year-old brit. A full-time nomad, he worked as a graphic designer but traveled the world as he worked. He had a great sense of humor and a head of hair that never seemed to behave. Throughout my few days with Craig, his hair never looked tamed. He frequently ran his hands through it, messing it up further. There was also a 21-year-old guy who was a cook from America. He looked closer to 30 than 21. Incredibly quiet, he rarely spoke throughout the stay, but he seemed to have arrived a day or so earlier and had made a good bond with Craig despite his silence.
+
+Naples is famous for its "lively" nightlife, but that description barely begins to capture it. In comparison to Milan, Venice, Florence, and Cinque Terre, Naples is wild. If you're coming from any of those more sedate cities in the north of Italy, you'll be in for a shock when you arrive in Naples. There, the bars don't even open until 11:30, and they close at a mere 2 in the morning, leaving you with just a whopping 2.5 hours to enjoy your night out.
+
+<div class="side-by-side">
+  <img alt="Crowded Streets of Naples" src="{naples_crowd}">
+  <img alt="Crowded Streets of Naples" src="{naples_crowd_2}">
+</div>
+<span class="caption">Streets of Naples</span>
+
+As I walked through the crowded streets of Naples, I was immediately struck by the chaotic scene. Throngs of people seemed to fill every inch of space, and cars struggled to make their way through the dense crowds. It was clear I needed to be vigilant about protecting my belongings in this bustling city. Despite the lively atmosphere, I decided to call it an early night. A cold I had picked up in Florence was still lingering, and I knew that a night out at the clubs would not be the best thing for my health. Plus, the frenzied energy of the city made me feel like I might be an easy target for pickpockets. In hindsight, it was the right decision to head back early.
+
+Maya got her phone stolen that night. Craig was nice enough to lend her his tablet to work off of to try and figure out what to do next. Unfortunately, most places require 2-factor authentication to access your account. This meant she was locked out of almost all her accounts. She eventually got into her bank account, but she had a lot of work left to fully recover from the theft.
+
+## Pompeii
+
+As I was having breakfast on the scheduled day of my departure from TricTrac, I ran into Curtis, a guy I had briefly met at my previous hostel in Florence. He convinced me and a couple of others to join him in Pompeii for the day. There was a brit named Tom with us and a German girl named Orfhlaith, (pronounced like the Spanish hello, Hola). Immediately off the train, we were hit up by people offering us tickets to “skip the line” in Pompeii and offering us a guide for only $50 each. We declined. Since it was off-season, there was no line to skip anyway. They were trying to rip us off. With how entitled they felt towards our money, it was clear we were in peak tourist territory.
+
+Pompeii was beautiful and surprisingly big. The cobblestone pathways wind through the city, passing by meticulously preserved houses and shops. The walls of the buildings are adorned with colorful frescoes and mosaics that are impressively well-preserved. As you stroll through the streets, the sense of history is palpable. The city is massive. It must have taken a ton of work to unearth it all. It got repetitive quickly though. It would be difficult to see all of it in a single day, but I doubt you would want to spend two days there since it's repetitive. Cool to see once, but I have no compulsion to return.
+
+<div class="side-by-side photo-row">
+  <img alt="Entrance to Pompeii" src="{pompeii_entrance}">
+  <img alt="Statue in Pompeii" src="{pompeii_statue}">
+</div>
+<div class="side-by-side">
+  <img alt="Hola with a bird" src="{hola_bird_2}">
+  <img alt="Pompeii Frescoe" src="{frescoe}">
+</div>
+<span class="caption">Pompeii</span>

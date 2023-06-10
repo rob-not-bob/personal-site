@@ -1,0 +1,99 @@
+---
+title: Laos
+author: Robert Allen
+date: 1-12-2023
+heroImageUrl: ./waterfall_2.webp
+---
+
+<script>
+import arrival_singapore from './arrival_singapore.webp';
+import ascentMov from './ascent.mov';
+import ascentWebm from './ascent.webm';
+import hot_air_balloon_2 from './hot_air_balloon_2.webp';
+import hot_air_fillup_1 from './hot_air_fillup_1.webp';
+import hot_air_selfie_1 from './hot_air_selfie_1.webp';
+import hot_air_towMov from './hot_air_tow.mov';
+import hot_air_towWebm from './hot_air_tow.webm';
+import laos_train_station_2 from './laos_train_station_2.webp';
+import poolsMov from './pools.mov';
+import poolsWebm from './pools.webm';
+import pools_1 from './pools_1.webp';
+import pools_3 from './pools_3.webp';
+import swimming_hole from './swimming_hole.webp';
+import waterfall_2 from './waterfall_2.webp';
+</script>
+
+Upon arriving in Laos from Hanoi, Vietnam, on a small airplane, I was met with a slight hiccup at customs. Although I had a visa, it turned out that there was additional paperwork required. As I received the forms, I realized I didn't have a pen to fill them out. Fortunately, a kind couple nearby lent me one, and I was able to complete the forms and clear customs without any further issues.
+
+Once I had collected my luggage, I hopped onto a van alongside other tourists, which took us to the main part of Luang Prabang. After checking into my hostel and dropping off my belongings, I ventured out to explore the heart of the city. The vibrant food stalls caught my attention, and I indulged in delicious local food while sipping on a refreshing beer. It was a great introduction to the country.
+
+## Kuang Si Waterfall
+
+<img class="photo-row" src="{waterfall_2}" alt="Kuang Si Waterfall" />
+<span class="caption">Kuang Si Waterfall</span>
+
+My journey in Laos began with a ride to the Kuang Si Waterfall, where I met a couple who were also staying at my hostel. They were also both from Colorado! We quickly connected and decided to explore the waterfall together. As we approached, a series of vibrant blue pools greeted us on our short hike toward the waterfall. The striking color of the water is due to the presence of dissolved limestone and minerals picked up by the water as it flows through.
+
+The Kuang Si Waterfall was an awe-inspiring sight, with multiple tiers of cascading water that drew numerous tourists who snapped pictures and selfies to capture the moment. The three of us decided to hike together above the waterfall, unsure of what we would find up there.
+
+During the hike, the girl in the couple expressed some nervousness about the climb, as the trail was rough and she had broken her tailbone a few months earlier. She had received treatment in Bangkok, which she shared was an affordable and excellent place for medical care in Southeast Asia.
+
+<img class="photo-row" src="{pools_3}" alt="Kuang Si Pool" />
+
+<video width="360" height="640" controls>
+  <source src="{poolsWebm}" type="video/webm" />
+  <source src="{poolsMov}" type="video/mov" />
+</video>
+<span class="caption">Pools Leading Up to Kuang Si Waterfall</span>
+
+We continued our ascent and eventually reached a pool at the top of the waterfall. This pool and the water flowing into it fed into the waterfall we had come here to see. There was a rope swing attached and several tourists were swimming in the pool. I had brought my swimsuit and towel and joined them for a while. The water was quite cold but was refreshing after our short hike up. The pool was a great reward for our curiosity.
+
+After spending some time at the pool, we began our slow descent back to the van, taking extra care to avoid any falls that could further injure the girl's tailbone. We returned to our hostel, chatting most of the van ride back.
+
+<img class="photo-row" src="{swimming_hole}" alt="Swimming Hole" />
+<span class="caption">Swimming Hole Above the Waterfall</span>
+
+Following this adventure, I hopped on the new fast train built by the Chinese Communist Party (CCP) for Laos to travel between cities. The train station is surprisingly modern and sticks out as the most polished 1st world structure I had seen in several months. This station highlights China's growing influence in the region as they continue to invest in and develop neighboring countries. Naturally, China expects its investment to pay off in the future.
+
+<img class="photo-row" src="{laos_train_station_2}" alt="Laos Train Station" />
+<span class="caption">Laos Train Station</span>
+
+## Vang Vieng
+
+Upon arriving in Vang Vieng, I took a short walk to my hotel. I was worn out from my journey and eager to check-in. On my way, two Laotian children were biking past, one younger and one older. The younger was riding on the back of the older's bike. Upon seeing me, they biked closer, coming right toward me. The little brother then extended his hand to the side in the universal symbol for a high five. I reciprocated. A satisfying "SMACK" rang out as our hands collided. I had a smile on my face for the rest of the walk to the hotel.
+
+I had to be up early for the next item on my itinerary; a sunrise hot air balloon tour with the company "Above Laos." The company picked us up before sunrise and kindly provided coffee and fruit. Our group had the opportunity to watch the balloons inflate and feel the heat as the fire entered the balloons, which was an exciting experience.
+
+<video class="photo-row" width="360" height="640" controls>
+  <source src="{ascentMov}" type="video/webm" />
+  <source src="{ascentWebm}" type="video/mov" />
+</video>
+<img class="photo-row" src="{hot_air_balloon_2}" alt="Above Laos Hot Air Balloon" />
+<img class="photo-row" src="{hot_air_fillup_1}" alt="Above Laos Hot Air Balloon" />
+<img class="photo-row" src="{hot_air_selfie_1}" alt="Hot Air Balloon Selfie" />
+<span class="caption">Above Laos Hot Air Balloon Ride</span>
+
+What was left of my sleepiness quickly evaporated as a surge of adrenaline hit me as we ascended. I hadn't til this point considered what going on a hot air balloon would actually mean. I quickly found out. It means the only thing between me and a thousand-plus feet journey to the ground is a wicker basket.
+
+Unfortunately, due to the winds, we couldn't stay high up for long and had to descend to steer clear of the mountains. We got so low that our hot air balloon driver struck up a conversation with a local fisherman, as we gently floated above.
+
+<video width="360" height="640" controls>
+  <source src="{hot_air_towWebm}" type="video/webm" />
+  <source src="{hot_air_towMov}" type="video/mov" />
+</video>
+<span class="caption">Landing</span>
+
+As we descended, we tossed a rope to the crew members who had been following the balloon in their truck. They took hold of the rope and guided our balloon safely down to the ground. Despite the early morning start and the challenges posed by the wind, the hot air balloon ride was the highlight of my trip, offering beautiful views and a one-in-a-lifetime experience.
+
+## Vientiane
+
+After another train ride, I took a bus with a group of locals into Vientiane. Most of them didn't speak English, but I was able to help some fellow tourists navigate the bus system. By this point, I had become quite adept at finding my way around different countries.
+
+Upon arriving in Vientiane, I disembarked the bus and was once again immediately swarmed by tuk-tuk drivers. I confidently plowed through the crowd, as my hostel was just a mere 10-minute walk away. I had nothing on my agenda for Vientiane and spent the time relaxing.
+
+On my way to the airport, I bumped into someone from my hostel also heading to the airport. As fate would have it, we were both on the same flight to Singapore. We shared a ride to the airport, chatting about our experiences in Laos and future travel plans. Although we lost contact after boarding the plane, it was great to have a friend to help navigate the airport.
+
+<img class="photo-row" src="{arrival_singapore}" alt="Arriving In Signapore" />
+<span class="caption">Arriving In Singapore</span>
+
+I had a great time during my six days in Laos. It has a surprising amount to offer despite its relatively undeveloped state. The locals were always friendly, and the scenery was beautiful. Laos marked the end of my journey in this square of the world. The next country, Singapore, would be drastically different from what I had been experiencing these past few months.

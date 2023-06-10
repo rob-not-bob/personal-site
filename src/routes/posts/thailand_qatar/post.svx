@@ -1,0 +1,107 @@
+---
+title: Thailand + Layover in Qatar
+author: Robert Allen
+date: 11-30-2022
+heroImageUrl: ./lubd_grafitti.webp
+---
+
+<script>
+  import airport_field from './airport_field.webp';
+  import airport_terminal from './airport_terminal.webp';
+  import angkor_wat_reflection from './angkor_wat_reflection.jpg';
+  import armania from './armania.webm';
+  import illuzion_confetti from './illuzion_confetti.webm';
+  import illuzion_lights from './illuzion_lights.webm';
+  import lubd_grafitti from './lubd_grafitti.webp';
+  import meal_1_airline_2 from './meal_1_airline_2.webp';
+  import pool_party_2 from './pool_party_2.webp';
+  import soccer_chocolate from './soccer_chocolate.webp';
+</script>
+
+## Layover in Qatar
+
+After my trip to Pompeii, I took a train to Rome to catch my flight. Unfortunately, there would be no time to explore the city this time around. I was off to Thailand. First though, I had a 5-hour layover in Qatar. I hadn't planned this and had booked the tickets far in advance, but I was going to be right in the action as the biggest sporting event in the world was going on -- the world cup.
+
+My flight with Qatar Airlines was luxurious. The onboard meals were fantastic for airplane food and good even by normal food standards. There was some delicious vegetable salad with goat cheese, some of what looked like chicken curry with rice, bread, and orange juice (at my request), and a pudding-like desert with a white chocolate soccer ball embedded into it. The people next to me ordered white wine. When they did, our hostess asked if they wanted sparkling or not. All of this was free.
+
+<div class="side-by-side">
+  <img src="{meal_1_airline_2}" alt="Not your typical airline food" />
+  <img src="{soccer_chocolate}" alt="White Chocolate Soccerball" />
+</div>
+<span class="caption">Not your typical airline food</span>
+
+Qatar's airport is the #1 rated airport in the world. I got to see a bit of why it's the best while there. Security was practically instant as they had a whole suite of security lanes that they opened just for our arriving flight. They also had a giant shopping mall as part of it. There were several fully indoor trams taking you down the various terminals. The whole thing was also beautifully designed.
+
+I ran into a couple of football fans that wanted a photo. Upon throwing their arms around one another to pose, one of them loudly proclaimed, "We're gay." They weren't, as far as I could tell. Just drunk and having fun. Fortunately, it didn't seem that anyone heard them, but it made me hesitate. They pranced away singing to me in somewhat broken English. "Gay, no no Qatar. No No Qatar", fully aware of the possible repercussions of their joke.
+
+<div class="side-by-side">
+  <img src="{airport_terminal}" alt="Qatar Airport Terminal" />
+  <img src="{airport_field}" alt="Qatar Airport Soccer Field" />
+</div>
+<span class="caption">Qatar Airport</span>
+
+It was interesting to experience Qatar, even if it was just the airport for a few hours. Everything was gorgeous, but you couldn't help but feel that you were only being shown the nice parts. Knowing all the controversies surrounding this year's world cup, it felt that, just behind the curtain, you'd find a slew of exploited workers and human rights abuses.
+
+I boarded my next flight. 7 hours from Qatar to Thailand starting at 2 in the morning. With the time change included I would arrive in Phuket, Thailand at 1 PM local time. Ugh, time for some major jet lag.
+
+## Thailand
+
+Once I arrived, I only had a short walk to my room for the night. As I walked out of the airport, a swarm of taxi drivers descended upon my fellow tourists and me. Since it was only a short walk away, I avoided them but quickly realized that there were no sidewalks. I hobbled to my hostel in the hot and humid Thailand sun, dragging my luggage through grass pathways. Although it was only a 10-minute walk, my shirt and hair were fully soaked with sweat.
+
+My hostel's only real purpose was to offer a private stay for me to work off my jetlag. It served its purpose well. I slept for 10+ hours.
+
+The next day I took a taxi down to Patong beach which offered a long beachfront coastline and a very lively nightlife.
+
+## Patong Beach
+
+<div class="side-by-side">
+  <img src="{pool_party_2}" alt="Lub D Pool Party" />
+  <img src="{lubd_grafitti}" alt="Grafitti Artist Commision for Lub D" />
+</div>
+<span class="caption">Lub D Hostel - Phucket</span>
+
+I was staying in a hostel called Lub D. It had a bit of a party vibe, but it still felt like you could relax here if you wanted. The hostel had a bar crawl tonight. I signed up for around 800 Baht ~ $24, which got me a shirt and a bucket of alcohol. Probably not worth it in hindsight because they weren't putting forth any effort to prevent those who hadn't paid from joining in.
+
+We started by playing classic drinking games like rage cage and flip cup to pregame before hitting the bars. At our first bar, we danced for a long time. This was really a bar **crawl**. They were taking their time before taking us to the next stop. Eventually, we made it to the next stop, Armania.
+
+<video width="468" height="830" controls>
+  <source src="{armania}" type="video/webm">
+</video>
+
+This place was extremely cool. It had live music, and on stage, a man with the Saxophone stood above the crowd and commanded the crowds and the lights. Club music led by a saxophone is not normal, but the man made a strong case for why it should be.
+
+Again the group stayed here for a lot longer than it should have. I decided to have a wander about on my own. Lots of street guys were trying to advertise "ping pong shows". If you don't know what a ping pong show is then I'd suggest you google it. It's too much for me to describe here. I avoided them. Each bar had lots of girls on poles in skimpy outfits even just out on the streets. Girls would also try and pull you into bars, physically grabbing your arm and attempting to pull you inside or perhaps lightly slapping your ass as you walk by.
+
+It's a wild scene. I was not going to go into any of these places, at least on my own. The locals are very pushy. If I had complied with any of them, I would be pushed into spending lots of money, I'm sure.
+
+I wandered back to Armania to see if our group had decided to move on or not to the next stop of the crawl. On my way back in, I ran into a girl I had met earlier, along with her friend.
+
+> I know you!
+
+We decided to ditch the group since they moved so slowly between stops. We went back to those bars I'd avoided on my own and had a shot of tequila together. We continued to chat and got to know each other a bit better. Her friend was tired, so she told me to take care of her and left for the hostel.
+
+We wandered around from place to place and had fun. We decided we would go into the place that had the pushiest staff out front to mix things up. Naturally, this was a strip club -- Suzy Wongs. We discovered it's known for giving its guests and staff pool noodles to slap each other on the ass. We spent maybe 10 seconds there before deciding it wasn't for us but were laughing on our way out.
+
+We wandered the streets a bit and eventually saw a very large building with the word "Illuzion" illuminated above. We got in easily to the club with no cover paid. The staff seemed to prioritize getting white tourists into the club. I finally knew what it was like to be a pretty girl! This place was pretty crazy and knew how to put on a show.
+
+<video width="100%" height="auto" controls>
+  <source src="{illuzion_lights}" type="video/webm">
+</video>
+<span class="caption">Illuzion</span>
+
+Inside, the club was chaos, with loud pulsing music and a LED board displaying trippy visuals. The club was multi-leveled, allowing you to watch the main stage from various vantage points. The main stage also featured backup dancers gyrating on stage.
+
+<video width="468" height="auto" controls>
+  <source src="{illuzion_confetti}" type="video/webm">
+</video>
+
+We went upstairs first to get an overview of the place. And we saw our group! Our group had made its way over here. They were easy to spot as the free shirts they handed out were these bright pink monstrosities that illuminated well in the black lights of the club. We met up and danced some more with our group.
+
+Later, we left the club and wandered to a few more places but decided to call it a night pretty quickly as it was nearing 3 AM.
+
+A few more days in Patong beach passed this way. I think it's my favorite place to party so far. The clubs are all unique and engaging. It was all within walking distance of the hostel, and the general atmosphere was very fun without being overrun by high school graduates on their gap year. You'd occasionally spot an older white guy with a Thai girl (or someone outwardly presenting themselves as a girl) way way too young for him, but it didn't bring down the overall trashy fun-loving vibe this place had.
+
+It had to come to an end at some point. I scheduled a tour of a few nearby islands and would then head off to Phi Phi island, known to be even wilder than Patong beach.
+
+<iframe src="https://www}le.com/maps/d/embed?mid=1ppfiNBzRsvCNOV2aofMntABH3TolVGM&ehbc=2E312F" width="640" height="480"></iframe>
+<span class="caption">Journey to Thailand</span>

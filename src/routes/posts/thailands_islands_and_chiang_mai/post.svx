@@ -1,0 +1,96 @@
+---
+title: Thailand's Islands + Chiang Mai
+author: Robert Allen
+date: 12-07-2022
+heroImageUrl: ./koh_phi_phi_don_bay.webp
+---
+
+<script>
+  import island_bar from './island_bar.webp';
+  import koh_phi_phi_don_bay from './koh_phi_phi_don_bay.webp';
+  import koh_phi_phi_don_bay_selfie from './koh_phi_phi_don_bay_selfie.webp';
+  import koh_phi_phi_don_viewpoint from './koh_phi_phi_don_viewpoint.webp';
+  import maya_bay from './maya_bay.webp';
+  import new_room_with_cat from './new_room_with_cat.webp';
+  import reggae_bar_fightMp4 from './reggae_bar_fight.mp4';
+  import reggae_bar_fightWebm from './reggae_bar_fight.webm';
+  import sleeping_buddy from './sleeping_buddy.webp';
+  import spider from './spider.webp';
+  import wachirathan_waterfall_lower from './wachirathan_waterfall_lower.webp';
+  import wachirathan_waterfall_rainbow from './wachirathan_waterfall_rainbow.webp';
+  import wachirathan_waterfall_with_sign from './wachirathan_waterfall_with_sign.webp';
+</script>
+
+## Island Tour
+
+<img src="{koh_phi_phi_don_bay_selfie}" class="photo-row" alt="Koh Phi Phi Selfie">
+<img src="{koh_phi_phi_don_viewpoint}" class="photo-row" alt="Koh Phi Phi Don Viewpoint">
+<span class="caption">Koh Phi Phi Don</span>
+
+I'd heard many great things about Thailand's islands and was eager to see a few of them myself. I scheduled a tour that included everything - transportation, breakfast, lunch, snorkeling, and swimming in some of the most beautiful spots around the islands.
+
+Our first stop was Monkey bay, where I saw a few monkeys but only from a distance. We weren't allowed to get close, unfortunately. Next, it was time for the highlight of the tour - snorkeling. I was excited to explore the vibrant reefs and fish. I was not disappointed. I saw tons of colorful fish, including most of the cast of Finding Nemo. The water was a bit unclear where we were, but even despite that, it was perfect.
+
+![Maya Bay]({maya_bay})
+<span class="caption">Maya Bay</span>
+
+After snorkeling, we visited Maya Bay, the famous spot from the movie The Beach with Leonardo DiCaprio. The bay was as picturesque as it was in the movie. We couldn't swim there, as it was a breeding ground for sharks, but it was still an amazing spot for pictures.
+
+We then headed to Ko Phi Phi Don for lunch. The tour also included a stop for some swimming and drinks on a small island halfway between Ko Phi Phi Don and Phuket which had some very cool bars on its shores.
+
+![Island Bar]({island_bar})
+
+## Koh Phi Phi Don
+
+The next day I was actually going back to Ko Phi Phi Don. I’d heard it had quite a party scene so I wanted to check it out for a few days before I headed up to Chiang Mai. Unfortunately, when I got there, I found out that despite receiving my reservation, they had sold my room to someone else.
+
+They at least refunded me, but I spent some time on their porch looking for a new hostel. I found one called Blanco after some searching. I got checked in but quickly realized that this wouldn't be a nice place to stay. It was dingy, and run down, and my room had no windows. I also saw a couple inch long millipede crawl over a light switch at some point. Ew. The bed was clean though, and beyond that sole millipede, I hadn’t spotted any other hazards so it would be my bed for the night.
+
+I messaged a couple I had met on mainland Phuket who had come here a couple of days earlier. Lewis and Sanna. We made plans to meet up, have dinner and explore the nightlife together. We went to a place called Reggae bar, whose main feature was a boxing ring in the center where they encouraged guests to come up and fight each other with provided equipment and protection. In return, you would receive a medal and a free bucket of alcohol. I'd never seen anything quite like it. It seemed to embody what I felt Thailand's party scene was about. Anything goes as long as it makes things more fun.
+
+<video width="640" height="360" controls>
+  <source src="{reggae_bar_fightWebm}" type="video/webm">
+  <source src="{reggae_bar_fightMp4}" type="video/mp4">
+</video>
+<span class="caption">Tourists will do anything for free booze</span>
+
+After, we attempted to go down to the beach and watch some of the fire shows, but perhaps because it was a Thursday, it was a bit dead by the beach with no shows in sight. We decided to call it a night there.
+
+The next morning, I booked a stay at a new place. I wasn’t going to spend two nights sharing a bed with millipedes. I checked into a place called Tropical Garden Bungalow. It had a relaxed atmosphere, a poolside bar, and cats running around. One of which took a nap with me. I'll take a cat over a millipede any day.
+
+<div class="side-by-side">
+  <img alt="New Room With Cat" src="{new_room_with_cat}" />
+  <img alt="Sleeping Buddy" src="{sleeping_buddy}" />
+</div>
+
+## Chiang Mai
+
+I woke up the next day and caught the ferry to Krabi to catch my plane to Chiang Mai. My new hostel there, Gallery 84, was very nice. It was clear the owner had backpacked and used that experience to help when constructing his own hostel. The owner himself was a character. He had tattoos running up and down his arms and made a point to socialize with everyone. He made me and everyone who stayed there feel very welcome.
+
+I was only going to be in Chiang Mai for a couple of days, so it was important to make the most of it. That night I went down to the night markets. Unfortunately, despite all the gorgeous items on display, I was limited in my purchasing power as anything I bought I would need to haul around with me for several more months. I did order some Pad Thai from a street vendor for only 60 baht ($1.80).
+
+The next day, I spent some time working on my blog and website at a nearby coffee shop. I took a break and enjoyed some Indian food nearby, which would be my undoing.
+
+As the day continued, it became increasingly clear that my Indian feast was not settling well in my stomach. I went to the bathroom nearly 10 times over the next 5 hours. Eventually, my stomach decided even this wasn’t enough and had me vomiting out the remains of my lunch violently into the toilet. This process would repeat over the next two visits to the bathroom which fortunately finally calmed my stomach.
+
+During this ordeal, I made another horrible discovery -- I had lost my debit card. Most likely, it was sitting in an ATM back in Koh Phi Phi. In Thailand, the machines are not as well designed. They give you the money before you get your card back. In most places, it's the opposite. They're designed this way specifically to prevent what I just did. Which was to take the cash and leave right away.
+
+This is a bit of an issue as in South East Asia, cash is king. Practically everywhere is cash only. Even those places that do take credit cards will usually charge you a 3% fee on whatever your purchase. I only had around 700 baht left in cash. Enough for me to not worry about starving.
+
+I did learn you could get cash advances out from your card but to do this you would need to set a pin. Easy enough, except when you first set the pin they mail it to you rather than telling you what it is online. This is a problem without an actual address and also means I would need to get by 7-10 days without being able to renew my cash supply.
+
+Fortunately, I was using my mom's house as my mailing address and could have her read me the pin when she received it. Also fortunately, I was carrying around $200 of American cash with me since the start of my journey just in case. I could take it to currency exchanges and get what I needed.
+
+After learning my options, I was able to calm myself. I booked a tour of the nearby national park through my hostel, paying by credit card of course.
+
+The next morning, I set off for my tour. I was picked up at my hostel early in the morning by a minibus collecting everyone. After a few more stops, I met someone unexpected. Sophia. She was an acquaintance I had met back in Florence, Italy, now here in Chiang Mai, Thailand several weeks later on the same exact tour bus on the same exact day. The world is a small place. We hung out for most of the day as we explored the waterfalls, pagodas, and rivers of Doi Inthanon national park.
+
+![Wachirathan Waterfall]({wachirathan_waterfall_with_sign})
+
+<div class="side-by-side">
+  <img src="{wachirathan_waterfall_lower}" alt="Wachirathan Waterfall Lower View" />
+  <img src="{spider}" alt="Big ass hiking spider" />
+</div>
+<span class="caption">Wachirathan Waterfall + A Hand Sized Spider</span>
+
+After my stay in Chiang Mai, I was off to Cambodia. My first stop was the city of Phnom Peng, the capital. My time in Thailand had been a blast while also being the cheapest place I had visited thus far. I felt I could have spent a lot more time in this country than the couple of weeks I spent here. I am already planning a return trip.

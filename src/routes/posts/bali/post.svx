@@ -1,0 +1,82 @@
+---
+title: Bali
+author: Robert Allen
+date: 02-02-2023
+heroImageUrl: ./sunset_01.webp
+---
+
+<script>
+  import group_pic from './group_pic.jpg';
+  import group_pic_webp from './group_pic.webp';
+  import hostel_2_webp from './hostel_2.webp';
+  import hostel_kittens from './hostel_kittens.mov';
+  import hostel_kittens_webm from './hostel_kittens.webm';
+  import padi_cert from './padi_cert.jpg';
+  import padi_cert_webp from './padi_cert.webp';
+  import sunset_01 from './sunset_01.jpg';
+  import sunset_01_webp from './sunset_01.webp';
+  import sunset_02 from './sunset_02.jpg';
+  import sunset_02_webp from './sunset_02.webp';
+  import sunset_03 from './sunset_03.jpg';
+  import sunset_03_webp from './sunset_03.webp';
+  import sunset_horizontal from './sunset_horizontal.mov';
+  import sunset_horizontal_webm from './sunset_horizontal.webm';
+  import sunset_purple_01 from './sunset_purple_01.jpg';
+  import sunset_purple_01_webp from './sunset_purple_01.webp';
+  import sunset_purple_02 from './sunset_purple_02.jpg';
+  import sunset_purple_02_webp from './sunset_purple_02.webp';
+  import sunset_vertical from './sunset_vertical.mov';
+  import sunset_vertical_webm from './sunset_vertical.webm';
+</script>
+
+Hello World
+
+Dive Site 1: Padong Bay, Bali. Blue Lagoon 35 Minutes Max depth 12.0 M
+Dive Site 2: Padong Bay, Bali. Gepun Bay 41 Minutes. Max depth 11.5 M
+Dive Site 3: Tulamben, Bali. USAT Liberty Shipwreck 40 minutes. Max depth 17.4 M
+Dive Site 4: Tulamben, Bali. USAT Liberty Shipwreck 40 minutes. Max depth 19.2 M
+
+<picture>
+  <source srcset="{group_pic_webp}" type="image/webp" />
+  <img src="{group_pic}" alt="Hostel Friends" />
+</picture>
+<picture>
+  <img src="{hostel_2_webp}" alt="Second Hostel I Visited In Bali" />
+</picture>
+<picture>
+  <source srcset="{padi_cert_webp}" type="image/webp" />
+  <img src="{padi_cert}" alt="My PADI Certification" />
+</picture>
+<picture>
+  <source srcset="{sunset_01_webp}" type="image/webp" />
+  <img src="{sunset_01}" alt="Bali Sunset" />
+</picture>
+<picture>
+  <source srcset="{sunset_02_webp}" type="image/webp" />
+  <img src="{sunset_02}" alt="Bali Sunset" />
+</picture>
+<picture>
+  <source srcset="{sunset_03_webp}" type="image/webp" />
+  <img src="{sunset_03}" alt="Bali Sunset" />
+</picture>
+<picture>
+  <source srcset="{sunset_purple_01_webp}" type="image/webp" />
+  <img src="{sunset_purple_01}" alt="Bali Sunset - Purple" />
+</picture>
+<picture>
+  <source srcset="{sunset_purple_02_webp}" type="image/webp" />
+  <img src="{sunset_purple_02}" alt="Bali Sunset - Purple" />
+</picture>
+
+<video width="468" height="830" controls muted>
+  <source src="{sunset_vertical_webm}" type="video/webm">
+  <source src="{sunset_vertical}" type="video/mp4">
+</video>
+<video width="640" height="360" controls muted>
+  <source src="{sunset_horizontal_webm}" type="video/webm">
+  <source src="{sunset_horizontal}" type="video/mp4">
+</video>
+<video width="468" height="830" controls muted>
+  <source src="{hostel_kittens_webm}" type="video/webm">
+  <source src="{hostel_kittens}" type="video/mp4">
+</video>

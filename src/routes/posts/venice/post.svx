@@ -1,0 +1,85 @@
+---
+title: Venice
+author: Robert Allen
+date: 11-05-2022
+heroImageUrl: ./dating_profile_pic.webp
+---
+
+<script>
+  import fabio_1 from './fabio_1.webp';
+  import canals from './20221105_115747.webp';
+  import canals_mp4 from './canals.mp4';
+  import dating_profile_pic from './dating_profile_pic.webp';
+  import fellow_gondola_riders from './fellow_gondola_riders.webp';
+  import fish from './fish.webp';
+  import teardrop from './teardrop.webp';
+  import SocialMediaButtons from '$lib/components/SocialMediaButtons';
+</script>
+
+After Cinque Terre, I was off to Venice. I stayed at a hostel on the mainland outside Venice, only a 10-minute train ride to Venice proper. I made it my workstation for a couple of days, socializing with my fellow travelers but keeping it light as I worked throughout the week. I made a promise to myself to socialize more properly once the weekend came around.
+
+## Glass Making Workshop
+
+Friday morning, I had a glass-making workshop in Murano. My first outing to Venice proper. Venice and Amsterdam were quite different despite both being famous for their canals. Venice seems to be a city "in" the water. It is defined and ruled by the water it has been "placed" into. Amsterdam, by contrast, is a city "with" water. The city shapes itself as it wants rather than being ruled over by the water present within.
+
+![Fabio Working Glass]({fabio_1})
+<span class="caption">Fabio Working Glass</span>
+
+At the glass-making workshop, I met our instructor Fabio. He stood next to white-hot propane flames bursting out at seated workstations. Fabio had a very chill and casual attitude in contrast to the white-hot flames he worked with. His extremely laid-back attitude seemed almost too casual for the potentially dangerous work our small group would be doing. He demonstrated the two main principles of glass-making to our small group.
+
+- If you heat the glass too quickly or unevenly the grass will crack and shatter
+- Once the glass has cooled, it can not be reheated, else the glass will shatter. You have one "very quick" chance to make what you are attempting to make.
+
+I decided to make something simple, a teardrop. I melted gold and sparkly glass into the center and wrapped it with layers of clear, green, and red glass to add layers and give it a toy marble-like appearance. Fabio came by after I had shaped the circular ball and helped trim it into a proper teardrop shape. It came out quite well for my first attempt!
+
+<div class="side-by-side">
+  <img alt="Through Venice Canals" src="{teardrop}">
+  <img alt="Fellow Gondola Riders" src="{fish}">
+</div>
+<span class="caption">My Teardrop Vs Fabio's Fish</span>
+
+## Friday Night Party At the Hostel
+
+Fortunately, I wasn't just making empty promises when I said I'd go out Friday. After overcoming a bit of nervousness, I spotted a guy I had met earlier in the week, Sam, a 31-year-old who previously was in the Navy. I approached him and his group and asked if I could sit with them. Gradually, this group filled up with more and more girls until it was just Sam and me in a group of seven or more girls. The night was shaping up nicely!
+
+There was Katie, a cute 20-year-old blonde American girl. She seemed a bit naive, this being her first travel experience, but she had a great attitude and charm to her. Annie, another American, worked in theatre and had a bit of that crazy drama-kid energy about her. She sparked my interest but, after talking, we didn't find much chemistry between us. Still, she quickly became my "bro" of the group of girls. Sam's confidence seemed to be running very high that night. He was talking to another girl in the group named Alex, whom I didn't get to know.
+
+Sam was incredibly charming, talking with Alex for quite a while. However, once he discovered that she was leaving early tomorrow he started to fade away from her. He decided to go after my wingman Annie who was immediately charmed. Sam was a great dancer. Annie with her work in theatre was good as well. They lit up the dance floor. Sam was a real charmer. He was flirtatious with all the girls and had the looks and attitude to back it up.
+
+The girls loved it too. Sam, however, was flying too close to the Sun. After dancing with Annie for most of the night, he disappeared. Annie and I went to look for him and eventually spotted him chatting up yet another new girl. Annie visibly deflated. We returned to the dance floor to rejoin everyone but she was not in a good mood. I grabbed her hand and twirled her around to help take her mind off things. I could tell she truly appreciated it. Her eyes quickly lit up as we danced and the pain faded.
+
+At this point, it's worth mentioning that there were not many options for nightclubs in a city like Venice. This made our hostel the go-to spot across all of Venice for not just the folks staying in the hostel but for the locals as well. As the night continued, it became clear the local Venetian men treated our hostel as a hunting ground for easy women.
+
+I had taken on the role of protector of the group for the night. I had some interest in the girls but no one stood out to me. The local guys started to fill up the hostel. They were abundant, aggressive, and quite clueless. They made many moves on the girls but lacked the social skills to pull them off. They could not handle anything other than green lights. If there was resistance, they would only press harder on the gas peddle, ramming themselves into that brick wall of rejection.
+
+Katie was getting hit on repeatedly and aggressively. Not old enough to drink in the US, she was not quite adjusted enough to club culture to dodge their advances. At one point, after being pushed into dancing with a guy, she escaped the only way she could figure out how which was to announce that she needed to go to the bathroom.
+
+I was relieved she had stopped dancing with the guy. I didn't realize it at the time, but I was jealous of him. I thought I had no romantic interest in her, but it only took seeing her with someone else to disprove that.
+
+Katie sheltered in the bathroom for a while. After meeting back up with her, she kept saying hi to many other girls I hadn't met yet. She had made fast friends in the bathroom as a backup if she ran into more pushy guys. One of them, a very tall brunette, was dancing with a guy but keeping him far away from her with her arm fully extended as she held up her pointer finger in a "no, no, no" gesture and swayed it back and forth in front of his face as she danced and swayed. The guy had no comprehension of what this could mean and kept trying to force the dance despite it. The exchange had me in stitches as she expertly shut down the man's attempts.
+
+Getting over her rejection from Sam, we found Annie another guy as the night went on. A local Italian man who was clearly on the prowl but who seemed quite kind regardless. Annie hooked up with the guy and was back at the hostel later that night. While she was gone, Sam, after losing track of the girl he had ditched her for, ended up backtracking and trying to find her. Seeing that Annie was his backup plan, I took him on a similar tour of the hostel I had done with Annie when she went looking for Sam. Of course, Annie was currently hooking up with the Venetian, but I didn't tell Sam that. I was rubbing salt in his wound. He had hurt my friend with his playboy attitude and caused this outcome so I felt little remorse.
+
+Eventually, the night came to an end.
+
+## Gondola Ride
+
+Saturday morning, I was feeling a bit hungover. I had a Gondola Airbnb experience early today. I wrestled with myself for a while, debating if I should go, but eventually decided I would regret it if I didn't. I'm glad I did.
+
+I toured with two other women. Our guide was a local Venitian who was a pillar of the community. He and his crew at [Venice on Board](http://www.veniceonboard.it/en/) had the job of restoring old Gondolas to keep the traditional practice alive. Locals frequently came into his shop while he was giving us a rundown of the history of gondola riding to ask him various questions. He also had a sweet dog who would follow him everywhere and often accompany him on his gondola rides.
+
+Frankly, the tour was a magical experience. The weather was perfect at around 65 degrees with the Sun out. The sky was a picturesque blue. The sun and pastel buildings sparkled off the crystal surface of the water. The pictures, as gorgeous as they are, don't do the tour justice.
+
+<video width="360" height="640" controls class="photo-row">
+  <source src="{canals_mp4}" type="video/mp4">
+</video>
+
+<div class="side-by-side photo-row">
+  <img alt="Through Venice Canals" src="{canals}">
+  <img alt="Fellow Gondola Riders" src="{fellow_gondola_riders}">
+</div>
+
+![My New Dating Profile Picture]({dating_profile_pic})
+<span class="caption">My New Dating App Profile Picture</span>
+
+I did meet up with Katie and Annie that evening for dinner. We had another night out, but it was relatively uneventful compared to the first. Katie and I spent more time with each other that night and we found some time to dance, but little else happened. I lacked some of that confidence that Sam had demonstrated. Maybe we both had some things to learn from one another. Katie and I hugged goodbye the following morning as I departed for my train from Venice to Florence. One adventure finished and off to the next.

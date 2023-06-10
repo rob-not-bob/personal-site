@@ -1,29 +1,24 @@
 <script lang="ts">
+  import { page } from '$app/stores';
   import SocialMediaButtons from '$lib/components/SocialMediaButtons';
   import SocialMediaHead from '$lib/components/SocialMediaHead.svelte';
 
-  export let postUrl: string;
-  export let title: string;
-  export let description: string;
-  export let author: string;
-  export let date: string;
-  export let url: string;
-  export let heroImageUrl: string;
+  export let data;
 </script>
 <div class="wrapper">
-  <!-- <SocialMediaHead
-    title={title}
-    description={description}
-    heroImageUrl={heroImageUrl}
-    postUrl={url}
-  /> -->
-  <SocialMediaButtons url={postUrl} title={title ?? ''} />
+  <SocialMediaHead
+    title={data.title}
+    description={data.description}
+    heroImageUrl={data.heroImageUrl}
+    postUrl={$page.url.href}
+  />
+  <SocialMediaButtons url={$page.url.href} title={data.title} />
   <div class="container">
-    <h1 class="postTitle">{title}</h1>
-    <span class="postAuthor">{author}</span>
+    <h1 class="postTitle">{data.title}</h1>
+    <span class="postAuthor">{data.author}</span>
     <span class="dot" />
-    <span class="postDate">{date}</span>
-    <svelte:component this={$data} />
+    <span class="postDate">{data.date}</span>
+    <svelte:component this={data.component} />
   </div>
 </div>
 
