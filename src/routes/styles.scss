@@ -42,6 +42,15 @@ a {
 
 img {
   max-width: 100%;
+  height: auto;
+}
+
+.thumbnail-img {
+  display: block;
+  height: 100%;
+  object-position: 38% 22%;
+  // object-origin: border-box;
+  object-fit: cover;
 }
 
 .side-by-side {

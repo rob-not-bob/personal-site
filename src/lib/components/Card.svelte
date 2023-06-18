@@ -2,11 +2,12 @@
   export let title: string;
   export let description: string;
   export let postHref: string;
-  export let backgroundImage: string;
+  export let backgroundImage: any;
   export let authorName: string;
   export let date: string;
 
   import Author from './Author.svelte';
+  import Img from '@zerodevx/svelte-img';
 
   const MAX_DESCRIPTION_LENGTH = 130;
 </script>
@@ -14,7 +15,16 @@
 <div class="card">
   <div class="wrapthumbnail">
     <a href={postHref}>
-      <div class="thumbnail" style="background-image: url({backgroundImage})" />
+      {#if typeof backgroundImage === 'string'}
+        <img class="thumbnail-img" src={backgroundImage} alt={title} />
+      {:else}
+        <Img
+          class="thumbnail-img"
+          src={backgroundImage}
+          alt={title}
+          sizes="(min-width: 1200px) 201px, (min-width: 999px) 453px, (min-width: 780px) 333px, (min-width: 580px) 243px, calc(100vw - 32px)"
+        />
+      {/if}
     </a>
   </div>
   <div class="cardBlock">
@@ -47,14 +57,6 @@
     @media (min-width: 1200px) {
       flex: 32%;
     }
-  }
-
-  .thumbnail {
-    display: block;
-    height: 100%;
-    background-position: 38% 22%;
-    background-origin: border-box;
-    background-size: cover;
   }
 
   .cardBlock {

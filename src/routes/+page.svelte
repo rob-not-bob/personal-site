@@ -1,23 +1,9 @@
-<script lang="ts" context="module">
-  import { parse, format } from 'date-fns';
+<script lang="ts">
   import SectionTitle from '$lib/components/SectionTitle.svelte';
   import Card from '$lib/components/Card.svelte';
   import MainHeading from './components/MainHeading.svelte';
-  import { posts } from './posts.json';
 
-  const postListings = (
-    await Promise.all(
-      posts.map(async (post) => {
-        return {
-          ...post,
-          heroImageUrl: post.heroImageUrl.startsWith('./')
-            ? (await import(/* @vite-ignore */ `${post.heroImageUrl}?url`)).default
-            : post.heroImageUrl,
-          date: format(new Date(post.date), 'MMM d, yyyy')
-        };
-      })
-    )
-  ).sort((a, b) => Number(new Date(b.date)) - Number(new Date(a.date)));
+  export let data;
 </script>
 
 <svelte:head>
@@ -31,7 +17,7 @@
   />
   <SectionTitle text="Latest Posts" />
   <div class="container">
-    {#each postListings as post (post.title)}
+    {#each data.postListings as post (post.title)}
       <Card
         backgroundImage={post.heroImageUrl}
         title={post.title}

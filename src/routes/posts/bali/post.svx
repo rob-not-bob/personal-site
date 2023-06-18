@@ -6,6 +6,7 @@ heroImageUrl: ./sunset_01.webp
 ---
 
 <script>
+  import Img from '@zerodevx/svelte-img'
   import group_pic from './group_pic.jpg';
   import group_pic_webp from './group_pic.webp';
   import hostel_2_webp from './hostel_2.webp';
