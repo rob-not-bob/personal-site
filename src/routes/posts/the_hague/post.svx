@@ -2,23 +2,31 @@
 title: The Hague
 author: Robert Allen
 date: 10-23-2022
-heroImageUrl: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9Q_3DDe4ZPnN_e7VbZpBw6rkW65pAvJR9QNblb3nS7qMgq6EurrL6DqBoE-lngrybyKoa-PC7S_yP71UPrpMtOCu4j6oa-69ifHF1RD9u5ASY_xLErgfLYAhXRXNTet3_2dwL-k-y8tkeKsCseCr3ELZw8wt9IEOo8n8XlbUJ7EI5P-hBgIJoTmZx/s320/20221019_112825.jpg
+heroImageUrl: ./hague_street.jpeg
 ---
 
+<script>
+  import Img from '@zerodevx/svelte-img'
+  import belushis_band from './belushis_band.jpeg?run';
+  import belushis_bathroom from './belushis_bathroom.jpeg?run';
+  import belushis_front_bar from './belushis_front_bar.jpeg?run';
+  import belushis_front_dining from './belushis_front_dining.jpeg?run';
+  import grassy_tram from './grassy_tram.jpeg?run';
+  import hague_street from './hague_street.jpeg?run';
+  import stayokay_lobby from './stayokay_lobby.jpeg?run';
+  import vavoom_tiki_room from './vavoom_tiki_room.jpeg?run';
+</script>
+
 <div class="side-by-side">
-  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9Q_3DDe4ZPnN_e7VbZpBw6rkW65pAvJR9QNblb3nS7qMgq6EurrL6DqBoE-lngrybyKoa-PC7S_yP71UPrpMtOCu4j6oa-69ifHF1RD9u5ASY_xLErgfLYAhXRXNTet3_2dwL-k-y8tkeKsCseCr3ELZw8wt9IEOo8n8XlbUJ7EI5P-hBgIJoTmZx/s9248/20221019_112825.jpg">
-    <img alt="The Hauge Pretty Street" data-original-height="9248" data-original-width="6936" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9Q_3DDe4ZPnN_e7VbZpBw6rkW65pAvJR9QNblb3nS7qMgq6EurrL6DqBoE-lngrybyKoa-PC7S_yP71UPrpMtOCu4j6oa-69ifHF1RD9u5ASY_xLErgfLYAhXRXNTet3_2dwL-k-y8tkeKsCseCr3ELZw8wt9IEOo8n8XlbUJ7EI5P-hBgIJoTmZx/s320/20221019_112825.jpg" width="240" />
-  </a>
-  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRjB5UT0eS1vX0lrjO5fj-9xjxxZoS_NuVMgwo1FSHAoxd3uJe6MYJsfv_kVFcl7eRU6ZxCr3AaHp8KzENjgrpzJEhE6eSDK1NQcu4RMyN_BcRo77FKwCHfK4M7opP0e3_H6Y5t68J3-aRpqvFcmBl6wvKsmWtljUN2adD1SqQlpC1S2fVaS1HIFD7/s9248/20221022_143921.jpg">
-    <img alt="The Hauge Grassy Tram" data-original-height="6936" data-original-width="9248" height="240" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRjB5UT0eS1vX0lrjO5fj-9xjxxZoS_NuVMgwo1FSHAoxd3uJe6MYJsfv_kVFcl7eRU6ZxCr3AaHp8KzENjgrpzJEhE6eSDK1NQcu4RMyN_BcRo77FKwCHfK4M7opP0e3_H6Y5t68J3-aRpqvFcmBl6wvKsmWtljUN2adD1SqQlpC1S2fVaS1HIFD7/s320/20221022_143921.jpg" width="320" />
-  </a>
+  <Img alt="The Hauge Pretty Street" src="{hague_street}" />
+  <Img alt="The Hauge Grassy Tram" src="{grassy_tram}" />
 </div>
 <span class="caption">The Hague</span>
 
 After staying in Amsterdam, I wanted to mix things up by visiting somewhere else in the Netherlands. I settled upon The Hague due to rumors of its good nightlife. Rotterdam was a strong contender, but the main attraction there was its architecture which wasn't a big draw for me.
 The train to the Hague was quite a smooth operation. Quiet, free wifi, and comfortable seats. I made it to my hostel, checked in, and got to work for that day. It was nice in that the lobby of my hostel was quiet and easy to work from. However, once it started to reach 8-9 PM, I realized it would never liven up.
 
-<img src=https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfD89HG2Ltk-5_cfza6VKeWrVkxrnEuXJX4HSVCEoF8a9AT8TVJts-hgqFeU98a9bDCMYuc2Y5etrOE2C7_Pk3GTM_oTtSbJk7iILDu81BJybv3eVm6C3eAQomnGgtyOHK6EFeEJ7fxGaD-UDZjLuP2gjwY_Jmn52hhCO8NtEXCoErpxm9X_ijwsTa/w640-h210/20221018_194901.jpg alt="StayOkay Lobby" />
+<Img src="{stayokay_lobby}" alt="StayOkay Lobby" />
 <span class="caption">StayOkay Lobby</span>
 
 Unfortunately, this hostel was not an 18+ hostel which I did not know at the time. Instead, this hostel seemed to make most of its money acting as temporary housing for high school kids to stay at for their soccer games/field trips. There were TONS of schoolchildren at this hostel, that and families. I was frankly out of my element. I spent most of my time at that hostel on my computer and being antisocial. I say antisocial, but there weren't many options unless I felt like chatting with high school kids -- I did not.
@@ -27,7 +35,7 @@ The hostel's name was StayOkay -- it lived up to its name.
 
 I did meet one person there during my stay; a gay Indian man by the name of Harish. Around 24 years old, he was talkative, friendly, and eager to get to know me. I, for my part, wasn't the most social having not found much in The Hague to be happy with. Still, we hung out for a bit of the day, got dinner, and met up with his friend. He was a dutchman whose name I don't recall. Our merry trio went out on the town that night and bar-hopped. Our first stop: American bar. Despite its name, there was nothing American about it other than pictures on the wall of celebrities. Next, a lively tiki bar called Vavoom Tiki Room. Great cocktails for the price and a great atmosphere. The vibe of the people wasn't as great, with lots of frat-boy attitudes going around. Lastly, we visited my favorite of the night: The fiddler. They made their own beer, and each table was solely illuminated by a candle on the table, giving it a cozy vibe.
 
-<img src=https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4G9HB0HfSYyH90UwGacxIwf9z4U5TV3vwGqBgaf3hb8qGWJjZ_8rMQnL6e5UqTIBYwJpd6GR4YqeH4_ZOtWtLl4HwZJ1XVUiq139V9JBZhFOmsngKYpY0Qd61zR14MtkyyiWPamkeKF1MKiy9MeygmmgtMP9n3iD4iI4j900oO8IJtF5-ZuDXxINP/w400-h300/20221020_232450.jpg alt="Vavoom Tiki Room" />
+<Img src="{vavoom_tiki_room}" alt="Vavoom Tiki Room" />
 <span class="caption">Vavoom Tiki Room</span>
 
 After the fiddler, Harish kissed his friend goodnight. This caused me to realize that both of them were in fact gay. I had been a third-wheeling this entire night without knowing it. We walked back to the hostel and said our goodbyes as Harish would leave the following morning.
@@ -39,20 +47,11 @@ In general, The Hague wasn't for me. I developed an allergy of some kind causing
 I decided to go back to The Winston in Amsterdam. Upon doing so, I immediately felt more at home. The streets were familiar, the chime of the clock tower, welcoming, and the hostel/bar staff, friendly. So far of the places I've visited, The Winston is my favorite and is the place that feels the most like home.
 
 <div class="side-by-side photo-row">
-  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiL2StlRQDzPJ1UImZR3urmQ_7Gb1SaIBpWmFcXBtSyNQytGDCX2kyutdSAX8w0-OxQkPxxTNyllNz87P_-kvV9l0en6neo-yIKrXDoEBATzDMkGB10OAb-BTuWfHR7tAmfRro3P8KDZZEaUBc-QlnepG521gq0LVY1uGsiWZVoOGamJKWNZyJyTmyO/s9248/20221024_202611.jpg">
-    <img alt="Belushi's Front Bar" data-original-height="6936" data-original-width="9248" height="300" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiL2StlRQDzPJ1UImZR3urmQ_7Gb1SaIBpWmFcXBtSyNQytGDCX2kyutdSAX8w0-OxQkPxxTNyllNz87P_-kvV9l0en6neo-yIKrXDoEBATzDMkGB10OAb-BTuWfHR7tAmfRro3P8KDZZEaUBc-QlnepG521gq0LVY1uGsiWZVoOGamJKWNZyJyTmyO/w400-h300/20221024_202611.jpg" width="400" />
-  </a>
-  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjratGz_tDWjpNcYriS-pfEyf4UcEpAu1dwGmp84tGUyUG0Lm87lXqCeLQOjhtOr9HI2pRk1YCf908x433WhSnc3OfzDh5RtuSdM3VTaChZMuZccfxS915t2ovDEZVD7CF9f1GPa8EXVt49NUmcY8043pXFPy1YpFb9K2G7b90etif0w3w4cWSHVJfi/s9248/20221024_202543.jpg">
-    <img alt="Belushi's Front Dining" data-original-height="6936" data-original-width="9248" height="300" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjratGz_tDWjpNcYriS-pfEyf4UcEpAu1dwGmp84tGUyUG0Lm87lXqCeLQOjhtOr9HI2pRk1YCf908x433WhSnc3OfzDh5RtuSdM3VTaChZMuZccfxS915t2ovDEZVD7CF9f1GPa8EXVt49NUmcY8043pXFPy1YpFb9K2G7b90etif0w3w4cWSHVJfi/w400-h300/20221024_202543.jpg" width="400" />
-  </a>
+  <Img alt="Belushi's Front Bar" src="{belushis_front_bar}" />
+  <Img alt="Belushi's Front Dining" src="{belushis_front_dining}" />
 </div>
 <div class="side-by-side">
-  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0XEMws2ewyaMGmF-EmrlQ67d_PhAO3tZs1E6PKpwUIY3Nwr12Hw0YE0NjLJJo1Xw7pIFHVQYRW0xQk9G0MuCHffMdtq8Zt_kAh5oDX-nBDpHPNX9n7ZBJ9maoxD7g4lp03TC-to8coxd4iPnNDIuPK9GTJJb3MbxWMtZB12tIhq-aJyksHSsqkg6B/s9248/20221024_202523.jpg">
-    <img alt="Belushi's Band" data-original-height="6936" data-original-width="9248" height="300" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0XEMws2ewyaMGmF-EmrlQ67d_PhAO3tZs1E6PKpwUIY3Nwr12Hw0YE0NjLJJo1Xw7pIFHVQYRW0xQk9G0MuCHffMdtq8Zt_kAh5oDX-nBDpHPNX9n7ZBJ9maoxD7g4lp03TC-to8coxd4iPnNDIuPK9GTJJb3MbxWMtZB12tIhq-aJyksHSsqkg6B/w400-h300/20221024_202523.jpg" width="400" />
-  </a>
-  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilI5mREqAne59gqELbpztRQCnpn81BwwXN_7G7MAzoVW3QWsr2ojm2Dg_IpxsJprfMwfRjJ25zWZGQC4JvtdVyv8NmFpw74pSZUWourpPNQnD45TE18AncGFv9WeJgeM7WeWY9vekRw2lLavtbqCD29igVZ_iAkZe8bhsPT9673qUrl39d2T0lh36t/s9248/20221024_202746.jpg">
-    <img alt="Belushi's Bathroom Sign" data-original-height="9248" data-original-width="6936" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilI5mREqAne59gqELbpztRQCnpn81BwwXN_7G7MAzoVW3QWsr2ojm2Dg_IpxsJprfMwfRjJ25zWZGQC4JvtdVyv8NmFpw74pSZUWourpPNQnD45TE18AncGFv9WeJgeM7WeWY9vekRw2lLavtbqCD29igVZ_iAkZe8bhsPT9673qUrl39d2T0lh36t/w300-h400/20221024_202746.jpg" width="300" />
-  </a>
+  <Img alt="Belushi's Band" src="{belushis_band}" />
+  <Img alt="Belushi's Bathroom Sign" src="{belushis_bathroom}" />
 </div>
-
 <span class="caption">Home away from Home - St. Christophers at the Winston</span>

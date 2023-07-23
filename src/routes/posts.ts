@@ -6,8 +6,7 @@ export const posts = [
     title: 'Arriving In Amsterdam',
     author: 'Robert Allen',
     date: '09-26-2022',
-    heroImageUrl:
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5UkXSsuvCzPnUY5kqFPe5Oe2mvR3qK92Y1-Rt_z2K4HrNTBh7bGpV7I-hd2_0XkJqXpsd9HJg9YPcOfuiAEh503IMEU2cq1DlAvgMzvekx-GkKOb6dPBKHyjL66wROyptqNsAOhCEdX5TEeZBjWy0qrnwKmOLXIcIE0Bg-Xkp_5_YRouEY91ppnjO/w640-h480/20220930_120718.jpg',
+    heroImageUrl: import('./posts/arriving_in_amsterdam/canals.jpeg?run'),
     description:
       "The first day of my travels. Bags have been packed, cats are with a friend, said my goodbyes -- I'm all set. A 7-hour redeye flight to Iceland followed by a 3-hour flight to Amsterdam. An easy pass through customs and I've officially arrived. Amsterdam. The first stop on what is supposed to be a year-long journey around the world. It's a bustling city renowned for its beautiful canals and lively atmosphere. It's a cultural hub where 90+% of the residents there speak English and you can go just about anywhere in the city using public transit or by bike. In other words, it's the perfect first stop for an inexperienced traveler like myself. My name's Rob. I am a 27-year-old American and I'm planning on traveling the world for a year."
   },
@@ -43,7 +42,7 @@ export const posts = [
     title: 'Flying Pigs -- Amsterdam',
     author: 'Robert Allen',
     date: '10-15-2022',
-    heroImageUrl: 'https://barstalker.de/wp-content/uploads/2022/03/Mayaimi-Vice.jpg',
+    heroImageUrl: import('./posts/flying_pigs/mayami_vice.jpeg?run'),
     description:
       "I'm staying in Amsterdam for a whole month. As part of that, I decided to jump from hostel to hostel to see more of the city. This next hostel, called the Flying Pig Downtown, is owned by the same company as The Winston where I last stayed. It's a much bigger hostel than the previous one and I was in a room with 14 beds. A big jump up from the six beds in my last room. It's quite a different experience from my last hostel. There's much less of a community within the rooms as most occupants avoid speaking to each other."
   },
@@ -52,8 +51,7 @@ export const posts = [
     title: 'Hello Italy',
     author: 'Robert Allen',
     date: '11-01-2022',
-    heroImageUrl:
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6_THCiKum2B4wzXURrHw2HC0cqmAAn1M8kVOBXdJkUyN7J2Yl6S4pweemDSaSeF8T87twX1bDzWMx_zZ4FWdi4bi4RvW2if4FuJEYj-CA69dvHfZlLoGmPfqOr4zwkrN2raWe1SPu2w7Sg7A94lHO98FzzI8GajAfwQSrsNVoHhRDNoiwvenZ9ayV/w640-h480/20221026_212440.jpg',
+    heroImageUrl: import('./posts/hello_italy/duomo_di_milano.jpeg?run'),
     description:
       'After nearly 30 days in the Netherlands, it was time to move on. Amsterdam was an excellent place to start my journey. Friendly people, high English proficiency everywhere, fun and interesting culture. However, it was time to move on to the next destination and see what that new place would offer.'
   },
@@ -80,8 +78,7 @@ export const posts = [
     title: 'St. Christophers at the Winston -- Amsterdam',
     author: 'Robert Allen',
     date: '10-08-2022',
-    heroImageUrl:
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3EtwjrEWgTgVw1e_Ao6uxNTmMEd-i4bVAfF7EiuteUY328iuEbPT23dNKMBFDoypv2v7U01ctFzhC9c-7JpRQ4nyc9J5M68lyUtgdHmciGIXlxGxM5UOPwT2GxPQyx3PbSPyyPQF53_umkCcK0BiZgS39qU_odupai7m8bRy7Aewc58HQSJ9Mto8t/w640-h480/IMG-20221004-WA0008.jpg',
+    heroImageUrl: import('./posts/st_christophers_at_the_winston/winston_friends.jpeg?run'),
     description:
       "St. Christophers at the Winston was the name of the new hostel I stayed at after my stay in my private room. Immediately upon going to my room I learned about another interesting quirk about the Netherlands and that is their stairs. The stairs throughout the Netherlands are in general very steep. They can be quite narrow and hazardous and they seem like quite a hazard to bring luggage up. You'd think it would be impossible to move in and out of places but the dutch are smart. Most of the places in Amsterdam have a hook hanging over the street from the roof where a rope can be used as a pulley. Then using their large windows people can easily move furniture in and out and avoid the hazardous stairs."
   },
@@ -108,8 +105,7 @@ export const posts = [
     title: 'The Hague',
     author: 'Robert Allen',
     date: '10-23-2022',
-    heroImageUrl:
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9Q_3DDe4ZPnN_e7VbZpBw6rkW65pAvJR9QNblb3nS7qMgq6EurrL6DqBoE-lngrybyKoa-PC7S_yP71UPrpMtOCu4j6oa-69ifHF1RD9u5ASY_xLErgfLYAhXRXNTet3_2dwL-k-y8tkeKsCseCr3ELZw8wt9IEOo8n8XlbUJ7EI5P-hBgIJoTmZx/s320/20221019_112825.jpg',
+    heroImageUrl: import('./posts/the_hague/hague_street.jpeg?run'),
     description:
       "After staying in Amsterdam, I wanted to mix things up by visiting somewhere else in the Netherlands. I settled upon The Hague due to rumors of its good nightlife. Rotterdam was a strong contender, but the main attraction there was its architecture which wasn't a big draw for me."
   },
