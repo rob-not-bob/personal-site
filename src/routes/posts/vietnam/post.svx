@@ -6,24 +6,25 @@ heroImageUrl: ./hoi_an_river_night.webp
 ---
 
 <script>
-  import ha_long_bay_cruise_boat from './ha_long_bay_cruise_boat.webp';
-  import ha_long_bay_fishing_boat from './ha_long_bay_fishing_boat.webp';
-  import ha_long_bay_selfie from './ha_long_bay_selfie.webp';
-  import happy_budda from './happy_budda.webp';
-  import hoi_an_city_night_2 from './hoi_an_city_night_2.webp';
-  import hoi_an_city_night_3 from './hoi_an_city_night_3.webp';
-  import hoi_an_river_night from './hoi_an_river_night.webp';
-  import marble_dragon_statues from './marble_dragon_statues.webp';
-  import marble_group from './marble_group.webp';
-  import marble_mountain_entryway from './marble_mountain_entryway.webp';
-  import marble_mountain_light_streaming_in from './marble_mountain_light_streaming_in.webp';
-  import marble_statues_chess from './marble_statues_chess.webp';
-  import ninh_binh_3 from './ninh_binh_3.webp';
-  import ninh_binh_fishies from './ninh_binh_fishies.webp';
-  import ninh_binh_homestay_night from './ninh_binh_homestay_night.webp';
-  import shamrock_irish_bar_hoi_an from './shamrock_irish_bar_hoi_an.webp';
-  import snap_stay_trivia from './snap_stay_trivia.webp';
-  import tiger_tiger from './tiger_tiger.webp';
+  import Img from '@zerodevx/svelte-img'
+  import ha_long_bay_cruise_boat from './ha_long_bay_cruise_boat.webp?run';
+  import ha_long_bay_fishing_boat from './ha_long_bay_fishing_boat.webp?run';
+  import ha_long_bay_selfie from './ha_long_bay_selfie.webp?run';
+  import happy_budda from './happy_budda.webp?run';
+  import hoi_an_city_night_2 from './hoi_an_city_night_2.webp?run';
+  import hoi_an_city_night_3 from './hoi_an_city_night_3.webp?run';
+  import hoi_an_river_night from './hoi_an_river_night.webp?run';
+  import marble_dragon_statues from './marble_dragon_statues.webp?run';
+  import marble_group from './marble_group.webp?run';
+  import marble_mountain_entryway from './marble_mountain_entryway.webp?run';
+  import marble_mountain_light_streaming_in from './marble_mountain_light_streaming_in.webp?run';
+  import marble_statues_chess from './marble_statues_chess.webp?run';
+  import ninh_binh_3 from './ninh_binh_3.webp?run';
+  import ninh_binh_fishies from './ninh_binh_fishies.webp?run';
+  import ninh_binh_homestay_night from './ninh_binh_homestay_night.webp?run';
+  import shamrock_irish_bar_hoi_an from './shamrock_irish_bar_hoi_an.webp?run';
+  import snap_stay_trivia from './snap_stay_trivia.webp?run';
+  import tiger_tiger from './tiger_tiger.webp?run';
 </script>
 
 From Cambodia, I had a long journey to get to Vietnam. Vietnam is restrictive. My visa indicated I needed to enter the country from a certain point. I had made a bit of a mistake and chosen an entry point out of the way from where I was after my stay on the island of Koh Rohn. It would take two days of travel: a ferry ride, a very bumpy bus ride, and a separate 7-hour bus ride with no English speakers across the Vietnam border before I finally arrived in Ho Chi Minh.
@@ -36,7 +37,7 @@ After my brief stay in Ho Chi Minh, I was off to Hoi An. It was a 21+ hour sleep
 
 I arrived at the SnapStay hostel after my long journey. The host there, Earnest, made a point of introducing me to everyone. It became clear why this hostel had the highest rating I'd ever seen of all the hostels. Earnest, our gracious host, knew the names and stories of everyone staying in his hostel.
 
-![SnapStay Group]({snap_stay_trivia})
+<Img src={snap_stay_trivia} alt="SnapStay Group" />
 <span class="caption">Snap Stay Hostel</span>
 
 He added me and a few new arrivals to his hostel group WhatsApp and bombarded us with helpful information about what to do, where to eat, things to see, etc. Earnest instantly got everyone talking to each other and bypassed the typical awkward period I have in hostels of not knowing anyone.
@@ -45,16 +46,16 @@ He added me and a few new arrivals to his hostel group WhatsApp and bombarded us
 
 The next day I woke up and went downstairs to enjoy the hostel breakfast. The hostel doubled as a cafe during the day but was still mostly attended to by hostel residents. I met back up with some folks I had met the night before. They invited me to join their trip to Marble Mountain that day. Marble mountain was quite a site. As the name suggests, lots of Marble is extracted from the mountain and made into statues.
 
-<img src="{marble_dragon_statues}" alt="Marble Dragon Statues" class="photo-row" />
+<Img src="{marble_dragon_statues}" alt="Marble Dragon Statues" class="photo-row" />
 <div class="side-by-side photo-row">
-  <img src="{marble_mountain_entryway}" alt="Marble Mountain Stairway" />
-  <img src="{marble_mountain_light_streaming_in}" alt="Marble Mountain Light Streaming In" />
+  <Img src="{marble_mountain_entryway}" alt="Marble Mountain Stairway" />
+  <Img src="{marble_mountain_light_streaming_in}" alt="Marble Mountain Light Streaming In" />
 </div>
 <div class="side-by-side photo-row">
-  <img src="{marble_statues_chess}" alt="Marble Statues Playing Chess" />
-  <img src="{happy_budda}" alt="Happy Budda" />
+  <Img src="{marble_statues_chess}" alt="Marble Statues Playing Chess" />
+  <Img src="{happy_budda}" alt="Happy Budda" />
 </div>
-<img src="{marble_group}" alt="Marble Group" />
+<Img src="{marble_group}" alt="Marble Group" />
 
 <span class="caption">Marble Mountain</span>
 
@@ -64,22 +65,22 @@ We then went back to the hostel after our day of adventure. We split up to give 
 
 A bit drunk, I returned to the hostel and was predictably chatty after 3 pints. After dinner, me and a few of the other girls went out back to the Irish bar. In most of Europe, Christmas is primarily celebrated on Christmas Eve, so this was the night to go out. It was dark out then, which was perfect conditions. Hoi An is known for its lanterns and the river that runs through it. The resulting scene was stunning and made a good substitute for the Christmas lights I'd grown to expect this time of year.
 
-<img src="{hoi_an_river_night}" alt="Hoi An Christmas Eve" class="photo-row">
-<img src="{hoi_an_city_night_2}" alt="Hoi An At Night">
+<Img src="{hoi_an_river_night}" alt="Hoi An Christmas Eve" class="photo-row" />
+<Img src="{hoi_an_city_night_2}" alt="Hoi An At Night" />
 <span class="caption">Hoi An - Christmas Eve</span>
 
 Back at the Irish bar, I learned that two of our group of four got tattoos that day. Supposedly, you shouldn't drink within 48 hours of getting a tattoo. I was disappointed since I was in the mood for a lively night. They fell in love with the live music in the bar, so we spent a long time there. Between them not drinking and their infatuation with the live band, the pace of the evening slowed down.
 
 I buckled up. I vowed not to be a party pooper and go along for the ride. Better to try and enjoy the night I was having rather than be miserable and try and force it into a night it wasn't meant to be.
 
-<img src="{shamrock_irish_bar_hoi_an}" alt="Irish Bar Hoi An">
+<Img src="{shamrock_irish_bar_hoi_an}" alt="Irish Bar Hoi An" />
 <span class="caption">Irish Bar - Hoi An</span>
 
 After we finished up at the Irish bar, we went to a bar called Tiger Tiger. Tiger Tiger was clearly the club of Hoi An. Our group started to dance, but my heart wasn't into it. Since I previously resigned myself to a quiet night, I found it hard to get back into the party mindset.
 
 I made it to midnight when fireworks started to fire off. Shortly after, I slipped away back to the hostel. Despite my attempts, my party mood died at the Irish bar. One of the girls there was also behaving somewhat coldly toward me. She seemed to be going out of her way not to interact with me. I don't know why and assume it had more to do with her than with me.
 
-<img src="{tiger_tiger}" alt="Tiger Tiger - Hoi An">
+<Img src="{tiger_tiger}" alt="Tiger Tiger - Hoi An" />
 <span class="caption">Tiger Tiger - Hoi An</span>
 
 The next morning, they asked me where I had gone. I appreciated that they looked for me. One of the girls, Jodie, suspected I had left. I liked her most of the group. Her inference that I had left reinforced that opinion. She seemed to understand why I left without making me spell it out.
@@ -102,10 +103,10 @@ I rode the bus to Ha Long Bay with a guy named John. As fellow Americans, we qui
 
 Once on the boat, we ate and then left for a small beach on one of the many islands where we competed in a volleyball tournament. Shortly after, we returned to the boat to start drinking. I was killing it with games that day. I was undefeated in pool, and came 2nd in the boat beer pong tournament, even beating last night's champions.
 
-<img src="{ha_long_bay_cruise_boat}" alt="Ha Long Bay Cruise Boat" class="photo-row">
+<Img src="{ha_long_bay_cruise_boat}" alt="Ha Long Bay Cruise Boat" class="photo-row" />
 <div class="side-by-side">
-  <img src="{ha_long_bay_fishing_boat}" alt="Ha Long Bay Fishing Boat">
-  <img src="{ha_long_bay_selfie}" alt="Ha Long Bay Selfie">
+  <Img src="{ha_long_bay_fishing_boat}" alt="Ha Long Bay Fishing Boat" />
+  <Img src="{ha_long_bay_selfie}" alt="Ha Long Bay Selfie" />
 </div>
 <span class="caption">Ha Long Bay</span>
 
@@ -133,10 +134,10 @@ Vietnam was a bit of a mixed bag. If I were to do it again, I would spend much l
 
 Following my uneventful New Year's, I stayed in a homestay in Ninh Binh. It had an opposite feel to Hanoi. Much quieter, which was very much appreciated. During my time there, I slowed down and just relaxed. I went back to the gym a few times, which did wonders for my mental health.
 
-<img src="{ninh_binh_homestay_night}" alt="Ninh Binh Homestay" class="photo-row">
+<Img src="{ninh_binh_homestay_night}" alt="Ninh Binh Homestay" class="photo-row" />
 <div class="side-by-side">
-  <img src="{ninh_binh_fishies}" alt="Fishies in Ninh Binh Homestay">
-  <img src="{ninh_binh_3}" alt="Ninh Binh">
+  <Img src="{ninh_binh_fishies}" alt="Fishies in Ninh Binh Homestay" />
+  <Img src="{ninh_binh_3}" alt="Ninh Binh" />
 </div>
 <span class="caption">Ninh Binh</span>
 

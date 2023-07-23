@@ -6,39 +6,40 @@ heroImageUrl: ./koh_phi_phi_don_bay.webp
 ---
 
 <script>
-  import island_bar from './island_bar.webp';
-  import koh_phi_phi_don_bay from './koh_phi_phi_don_bay.webp';
-  import koh_phi_phi_don_bay_selfie from './koh_phi_phi_don_bay_selfie.webp';
-  import koh_phi_phi_don_viewpoint from './koh_phi_phi_don_viewpoint.webp';
-  import maya_bay from './maya_bay.webp';
-  import new_room_with_cat from './new_room_with_cat.webp';
+  import Img from '@zerodevx/svelte-img'
+  import island_bar from './island_bar.webp?run';
+  import koh_phi_phi_don_bay from './koh_phi_phi_don_bay.webp?run';
+  import koh_phi_phi_don_bay_selfie from './koh_phi_phi_don_bay_selfie.webp?run';
+  import koh_phi_phi_don_viewpoint from './koh_phi_phi_don_viewpoint.webp?run';
+  import maya_bay from './maya_bay.webp?run';
+  import new_room_with_cat from './new_room_with_cat.webp?run';
   import reggae_bar_fightMp4 from './reggae_bar_fight.mp4';
   import reggae_bar_fightWebm from './reggae_bar_fight.webm';
-  import sleeping_buddy from './sleeping_buddy.webp';
-  import spider from './spider.webp';
-  import wachirathan_waterfall_lower from './wachirathan_waterfall_lower.webp';
-  import wachirathan_waterfall_rainbow from './wachirathan_waterfall_rainbow.webp';
-  import wachirathan_waterfall_with_sign from './wachirathan_waterfall_with_sign.webp';
+  import sleeping_buddy from './sleeping_buddy.webp?run';
+  import spider from './spider.webp?run';
+  import wachirathan_waterfall_lower from './wachirathan_waterfall_lower.webp?run';
+  import wachirathan_waterfall_rainbow from './wachirathan_waterfall_rainbow.webp?run';
+  import wachirathan_waterfall_with_sign from './wachirathan_waterfall_with_sign.webp?run';
 </script>
 
 ## Island Tour
 
-<img src="{koh_phi_phi_don_bay_selfie}" class="photo-row" alt="Koh Phi Phi Selfie">
-<img src="{koh_phi_phi_don_viewpoint}" class="photo-row" alt="Koh Phi Phi Don Viewpoint">
+<Img src="{koh_phi_phi_don_bay_selfie}" class="photo-row" alt="Koh Phi Phi Selfie" />
+<Img src="{koh_phi_phi_don_viewpoint}" class="photo-row" alt="Koh Phi Phi Don Viewpoint" />
 <span class="caption">Koh Phi Phi Don</span>
 
 I'd heard many great things about Thailand's islands and was eager to see a few of them myself. I scheduled a tour that included everything - transportation, breakfast, lunch, snorkeling, and swimming in some of the most beautiful spots around the islands.
 
 Our first stop was Monkey bay, where I saw a few monkeys but only from a distance. We weren't allowed to get close, unfortunately. Next, it was time for the highlight of the tour - snorkeling. I was excited to explore the vibrant reefs and fish. I was not disappointed. I saw tons of colorful fish, including most of the cast of Finding Nemo. The water was a bit unclear where we were, but even despite that, it was perfect.
 
-![Maya Bay]({maya_bay})
+<Img src={maya_bay} alt="Maya Bay" />
 <span class="caption">Maya Bay</span>
 
 After snorkeling, we visited Maya Bay, the famous spot from the movie The Beach with Leonardo DiCaprio. The bay was as picturesque as it was in the movie. We couldn't swim there, as it was a breeding ground for sharks, but it was still an amazing spot for pictures.
 
 We then headed to Ko Phi Phi Don for lunch. The tour also included a stop for some swimming and drinks on a small island halfway between Ko Phi Phi Don and Phuket which had some very cool bars on its shores.
 
-![Island Bar]({island_bar})
+<Img src={island_bar} alt="Island Bar" />
 
 ## Koh Phi Phi Don
 
@@ -59,8 +60,8 @@ After, we attempted to go down to the beach and watch some of the fire shows, bu
 The next morning, I booked a stay at a new place. I wasn’t going to spend two nights sharing a bed with millipedes. I checked into a place called Tropical Garden Bungalow. It had a relaxed atmosphere, a poolside bar, and cats running around. One of which took a nap with me. I'll take a cat over a millipede any day.
 
 <div class="side-by-side">
-  <img alt="New Room With Cat" src="{new_room_with_cat}" />
-  <img alt="Sleeping Buddy" src="{sleeping_buddy}" />
+  <Img alt="New Room With Cat" src="{new_room_with_cat}" />
+  <Img alt="Sleeping Buddy" src="{sleeping_buddy}" />
 </div>
 
 ## Chiang Mai
@@ -85,11 +86,11 @@ After learning my options, I was able to calm myself. I booked a tour of the nea
 
 The next morning, I set off for my tour. I was picked up at my hostel early in the morning by a minibus collecting everyone. After a few more stops, I met someone unexpected. Sophia. She was an acquaintance I had met back in Florence, Italy, now here in Chiang Mai, Thailand several weeks later on the same exact tour bus on the same exact day. The world is a small place. We hung out for most of the day as we explored the waterfalls, pagodas, and rivers of Doi Inthanon national park.
 
-![Wachirathan Waterfall]({wachirathan_waterfall_with_sign})
+<Img src="{wachirathan_waterfall_with_sign}" alt="Wachirathan Waterfall" />
 
 <div class="side-by-side">
-  <img src="{wachirathan_waterfall_lower}" alt="Wachirathan Waterfall Lower View" />
-  <img src="{spider}" alt="Big ass hiking spider" />
+  <Img src="{wachirathan_waterfall_lower}" alt="Wachirathan Waterfall Lower View" />
+  <Img src="{spider}" alt="Big ass hiking spider" />
 </div>
 <span class="caption">Wachirathan Waterfall + A Hand Sized Spider</span>
 

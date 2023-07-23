@@ -6,21 +6,22 @@ heroImageUrl: ./angkor_wat_side.webp
 ---
 
 <script>
-  import angkor_wat_detailed_wall from './angkor_wat_detailed_wall.webp';
-  import angkor_wat_reflection from './angkor_wat_reflection.webp';
-  import angkor_wat_side from './angkor_wat_side.webp';
-  import angkor_wat_sunrise_path from './angkor_wat_sunrise_path.webp';
-  import angkor_wat_through_columns from './angkor_wat_through_columns.webp';
-  import bugs_yummy from './bugs_yummy.webp';
-  import cambodian_temple from './cambodian_temple.webp';
-  import inside_tomb_raider from './inside_tomb_raider.webp';
-  import killing_tree from './killing_tree.webp';
-  import koh_rohn from './koh_rohn.webp';
-  import onederz_siem_reap from './onederz_siem_reap.webp';
-  import pagoda from './pagoda.webp';
+  import Img from '@zerodevx/svelte-img'
+  import angkor_wat_detailed_wall from './angkor_wat_detailed_wall.webp?run';
+  import angkor_wat_reflection from './angkor_wat_reflection.webp?run';
+  import angkor_wat_side from './angkor_wat_side.webp?run';
+  import angkor_wat_sunrise_path from './angkor_wat_sunrise_path.webp?run';
+  import angkor_wat_through_columns from './angkor_wat_through_columns.webp?run';
+  import bugs_yummy from './bugs_yummy.webp?run';
+  import cambodian_temple from './cambodian_temple.webp?run';
+  import inside_tomb_raider from './inside_tomb_raider.webp?run';
+  import killing_tree from './killing_tree.webp?run';
+  import koh_rohn from './koh_rohn.webp?run';
+  import onederz_siem_reap from './onederz_siem_reap.webp?run';
+  import pagoda from './pagoda.webp?run';
   import plankton from './plankton.webm';
-  import temple_nightclub from './temple_nightclub.webp';
-  import tomb_raider_temple from './tomb_raider_temple.webp';
+  import temple_nightclub from './temple_nightclub.webp?run';
+  import tomb_raider_temple from './tomb_raider_temple.webp?run';
 </script>
 
 ## Phnom Peng
@@ -37,45 +38,45 @@ From 1975-1979, a Cambodian genocide occurred, killing 1.5-2 million people. Thi
 
 I bought an audio tour along with my entry ticket to the museum for $10. (Side note: Cambodia’s currency is a combination of USD and Cambodian Riel as they are still building their own currencies legitimacy). The museum is an old schoolyard turned torture prison known as Site 21. It’s estimated that 22,000 adults flowed through the prison; only 7 are known to have survived.
 
-![Killing Fields Pagoda]({pagoda})
+<Img src={pagoda} alt="Killing Fields Pagoda" />
 <span class="caption">Killing Fields Pagoda</span>
 
 After the tour of site 21, we returned to our Tuk Tuk driver. He took us to see the next stop, the Killing Fields. This was an old labor camp where much of the killing took place. Prisoners were sent here from prisons like Site 21 to die. The executions here were carried out with pickaxes or other such instruments as bullets were quite expensive. The staff said that during heavy rainfall, pieces of cloth, teeth, or bones still come up to the surface due to the shallow nature of the mass graves here. Along the side of one mass grave is a tree known as the Killing Tree. Here soldiers would bash the skulls of infants and small children before tossing their lifeless bodies into the mass grave. In the center of the field-turned-museum lies a monument called a stupa housing a tower of skulls retrieved from the graves. Most of them have visible holes where pickaxes pierced through.
 
-![Killing Fields Pagoda]({killing_tree})
+<Img src={killing_tree} alt="Killing Tree" />
 <span class="caption">Killing Tree</span>
 
 After our tour, we went back to the hostel. Cameron and I enjoyed some drinks together that night before I headed off to Siem Reap the following morning.
 
 ## Siem Reap
 
-![Onederz - Siem Reap]({onederz_siem_reap})
+<Img src={onederz_siem_reap} alt="Onederz - Siem Reap" />
 <span class="caption">Onederz - Siem Reap</span>
 
 Siem Reap is probably my favorite place in South East Asia so far. This is in part due to the hostel I stayed at called Onederz. The hostel is the best I've stayed at so far. Very comfortable beds, great cheap food, cheap booze, and a social atmosphere without devolving into a party. At $4 a night, I had little to complain about. The hostel offered several tours. The main attraction in Siem Reap is the temples, including the famous Angkor Wat, whose importance is such that it is represented on the country's flag.
 
-![Angkor Wat]({angkor_wat_reflection})
+<Img src={angkor_wat_reflection} alt="Angkor Wat" />
 
-![Angkor Wat]({angkor_wat_side})
+<Img src={angkor_wat_side} alt="Angkor Wat" />
 
 <div class="side-by-side photo-row">
-  <img alt="Angkor Wat" src="{angkor_wat_detailed_wall}" />
-  <img alt="Angkor Wat" src="{angkor_wat_sunrise_path}" />
+  <Img alt="Angkor Wat" src="{angkor_wat_detailed_wall}" />
+  <Img alt="Angkor Wat" src="{angkor_wat_sunrise_path}" />
 </div>
 
-![Angkor Wat]({angkor_wat_through_columns})
+<Img src={angkor_wat_through_columns} alt="Angkor Wat" />
 <span class="caption">Angkor Wat</span>
 
 I booked a sunrise tour of Angkor Wat. I captured many pictures of the temples and it's amazing how much work and effort has gone into building them. One of the temples is where Tomb Raider was filmed. Our guide explained to us that in Cambodia, Tomb Raider is an important movie. It helped to show the world that Cambodia is safe to travel to again following the events of the country's genocide.
 
-![Tomb Raider Temple]({tomb_raider_temple})
+<Img src={tomb_raider_temple} alt="Tomb Raider Temple" />
 <span class="caption">Tomb Raider Temple</span>
 
 I was also lucky enough to meet some great people during my stay. Amber and Evan, who I met at my hostel, were a blast to go out clubbing with. Before we went out, we invited a few other people from the hostel to join us for a pregame. We were later joined by a larger group of people as we played a few rounds of Kings Cup before heading out to the nearby beer street.
 
 Once we were all good and ready, we set out into the night. The nightclub Temple was just a short walk from the hostel. There were three floors. The first and second floors seemed to be filled with locals. The third was primarily occupied by all the other tourists. Not that people didn't mix between the floors. Eventually, we drunkenly stumbled back to our hostel after a long night out.
 
-![Temple Night Club]({temple_nightclub})
+<Img src={temple_nightclub} alt="Temple Night Club" />
 <span class="caption">Temple Night Club Rooftop</span>
 
 After our night out clubbing, Evan didn't come back with us to the hostel. He showed up around 4 AM, but when we asked him where he had been, he just smiled and said that he wouldn't "kiss and tell".
@@ -98,7 +99,7 @@ This cracked the drivers up. Still not to be deterred, they pestered me about wh
 
 Eventually, after catching my bearings, I took a tuk-tuk with one of the less pushy drivers to the port yard where I would book my ferry to Koh Rohn Samloem.
 
-![Koh Rohn Samloem]({koh_rohn})
+<Img src={koh_rohn} alt="Koh Rohn Samloem" />
 <span class="caption">Koh Rohn Samloem</span>
 
 I was only on the island for a single day, so I had to make the most of it. I booked a tour going from 2-8. On it, we'd go snorkeling, "fishing", see the sunset, and then the highlight (and my reason for booking the tour) swimming with bioluminescent plankton.

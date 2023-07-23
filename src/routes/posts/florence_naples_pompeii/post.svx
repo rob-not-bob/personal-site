@@ -6,21 +6,22 @@ heroImageUrl: ./santa_maria_del_fiore.webp
 ---
 
 <script>
-  import david_butt from './david_butt.webp';
-  import david_front from './david_front.webp';
-  import david_side from './david_side.webp';
-  import frescoe from './frescoe.webp';
-  import hola_bird_2 from './hola_bird_2.webp';
-  import meat_eater from './meat_eater.webp';
-  import naples_crowd from './naples_crowd.webp';
-  import naples_crowd_2 from './naples_crowd_2.webp';
-  import pompeii_entrance from './pompeii_entrance.webp';
-  import pompeii_statue from './pompeii_statue.webp';
-  import santa_maria_del_fiore from './santa_maria_del_fiore.webp';
-  import steak_dinner_crew from './steak_dinner_crew.webp';
+  import Img from '@zerodevx/svelte-img'
+  import david_butt from './david_butt.webp?run';
+  import david_front from './david_front.webp?run';
+  import david_side from './david_side.webp?run';
+  import frescoe from './frescoe.webp?run';
+  import hola_bird_2 from './hola_bird_2.webp?run';
+  import meat_eater from './meat_eater.webp?run';
+  import naples_crowd from './naples_crowd.webp?run';
+  import naples_crowd_2 from './naples_crowd_2.webp?run';
+  import pompeii_entrance from './pompeii_entrance.webp?run';
+  import pompeii_statue from './pompeii_statue.webp?run';
+  import santa_maria_del_fiore from './santa_maria_del_fiore.webp?run';
+  import steak_dinner_crew from './steak_dinner_crew.webp?run';
 </script>
 
-![The Awe-Inspiring Cathedral of Santa Maria del Fiore]({santa_maria_del_fiore})
+<Img src={santa_maria_del_fiore} alt="The Awe-Inspiring Cathedral of Santa Maria del Fiore" />
 <span class="caption">The Awe-Inspiring Cathedral of Santa Maria del Fiore</span>
 
 After my fantastic stay in Venice, I was off to Florence. After asking my hostel mates, I learned the main things to do in Florence were to see The David and have a Florentine steak. The Florentine steak, for those unaware, is a massive "3-finger thick" slab of steak. Exclusively sold by the kg, enjoying one is not a cheap affair.
@@ -31,11 +32,11 @@ The David is a true sight to behold, with its towering height of over 17 feet an
 
 It deserves all of its prestige. I'd recommend booking the earliest slot you can find. I avoided the crowds and had no issues taking pictures from as many angles as I wanted.
 
-![David's Front]({david_front})
+<Img src={david_front} alt="David's Front" />
 
 <div class="side-by-side">
-  <img alt="David's Side" src="{david_side}">
-  <img alt="David's Butt" src="{david_butt}">
+  <Img alt="David's Side" src="{david_side}" />
+  <Img alt="David's Butt" src="{david_butt}" />
 </div>
 <span class="caption">The David</span>
 
@@ -45,9 +46,9 @@ I booked another Airbnb experience. I had seen many places advertising Florentin
 
 That evening, I met with our host Anna. There were quite a few other people in our group, but I was the youngest. We enjoyed a 7-course dinner with 4 different types of wine throughout the dinner. The food was delicious but the Florentine steak itself, while very good, was overhyped. It was a tasty steak, but I have had much better. The experience overall was fantastic. Each course, besides the steak, was excellent! The steak was great, but it was so overhyped it let me down. If you want to experience it, I'd recommend booking the [Airbnb experience](https://www.airbnb.com/experiences/1892771) as I did. That way you get a variety of food as well. You won’t get a full kg of steak, but the other courses will more than make up for it.
 
-![Dinner Crew]({steak_dinner_crew})
+<Img src={steak_dinner_crew} alt="Dinner Crew" />
 
-![Chowing down on Florentine Steak]({meat_eater})
+<Img src={meat_eater} alt="Chowing down on Florentine Steak" />
 <span class="caption">Florentine Steak Dinner</span>
 
 ## Naples
@@ -59,8 +60,8 @@ I chatted up my new roommates as they arrived. There was Mel, a 31-year-old seas
 Naples is famous for its "lively" nightlife, but that description barely begins to capture it. In comparison to Milan, Venice, Florence, and Cinque Terre, Naples is wild. If you're coming from any of those more sedate cities in the north of Italy, you'll be in for a shock when you arrive in Naples. There, the bars don't even open until 11:30, and they close at a mere 2 in the morning, leaving you with just a whopping 2.5 hours to enjoy your night out.
 
 <div class="side-by-side">
-  <img alt="Crowded Streets of Naples" src="{naples_crowd}">
-  <img alt="Crowded Streets of Naples" src="{naples_crowd_2}">
+  <Img alt="Crowded Streets of Naples" src="{naples_crowd}" />
+  <Img alt="Crowded Streets of Naples" src="{naples_crowd_2}" />
 </div>
 <span class="caption">Streets of Naples</span>
 
@@ -75,11 +76,11 @@ As I was having breakfast on the scheduled day of my departure from TricTrac, I 
 Pompeii was beautiful and surprisingly big. The cobblestone pathways wind through the city, passing by meticulously preserved houses and shops. The walls of the buildings are adorned with colorful frescoes and mosaics that are impressively well-preserved. As you stroll through the streets, the sense of history is palpable. The city is massive. It must have taken a ton of work to unearth it all. It got repetitive quickly though. It would be difficult to see all of it in a single day, but I doubt you would want to spend two days there since it's repetitive. Cool to see once, but I have no compulsion to return.
 
 <div class="side-by-side photo-row">
-  <img alt="Entrance to Pompeii" src="{pompeii_entrance}">
-  <img alt="Statue in Pompeii" src="{pompeii_statue}">
+  <Img alt="Entrance to Pompeii" src="{pompeii_entrance}" />
+  <Img alt="Statue in Pompeii" src="{pompeii_statue}" />
 </div>
 <div class="side-by-side">
-  <img alt="Hola with a bird" src="{hola_bird_2}">
-  <img alt="Pompeii Frescoe" src="{frescoe}">
+  <Img alt="Hola with a bird" src="{hola_bird_2}" />
+  <Img alt="Pompeii Frescoe" src="{frescoe}" />
 </div>
 <span class="caption">Pompeii</span>

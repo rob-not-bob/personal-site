@@ -6,14 +6,14 @@ heroImageUrl: ./dating_profile_pic.webp
 ---
 
 <script>
-  import fabio_1 from './fabio_1.webp';
-  import canals from './20221105_115747.webp';
+  import Img from '@zerodevx/svelte-img'
+  import fabio_1 from './fabio_1.webp?run';
+  import canals from './20221105_115747.webp?run';
   import canals_mp4 from './canals.mp4';
-  import dating_profile_pic from './dating_profile_pic.webp';
-  import fellow_gondola_riders from './fellow_gondola_riders.webp';
-  import fish from './fish.webp';
-  import teardrop from './teardrop.webp';
-  import SocialMediaButtons from '$lib/components/SocialMediaButtons';
+  import dating_profile_pic from './dating_profile_pic.webp?run';
+  import fellow_gondola_riders from './fellow_gondola_riders.webp?run';
+  import fish from './fish.webp?run';
+  import teardrop from './teardrop.webp?run';
 </script>
 
 After Cinque Terre, I was off to Venice. I stayed at a hostel on the mainland outside Venice, only a 10-minute train ride to Venice proper. I made it my workstation for a couple of days, socializing with my fellow travelers but keeping it light as I worked throughout the week. I made a promise to myself to socialize more properly once the weekend came around.
@@ -22,7 +22,7 @@ After Cinque Terre, I was off to Venice. I stayed at a hostel on the mainland ou
 
 Friday morning, I had a glass-making workshop in Murano. My first outing to Venice proper. Venice and Amsterdam were quite different despite both being famous for their canals. Venice seems to be a city "in" the water. It is defined and ruled by the water it has been "placed" into. Amsterdam, by contrast, is a city "with" water. The city shapes itself as it wants rather than being ruled over by the water present within.
 
-![Fabio Working Glass]({fabio_1})
+<Img src={fabio_1} alt="Fabio Working Glass" />
 <span class="caption">Fabio Working Glass</span>
 
 At the glass-making workshop, I met our instructor Fabio. He stood next to white-hot propane flames bursting out at seated workstations. Fabio had a very chill and casual attitude in contrast to the white-hot flames he worked with. His extremely laid-back attitude seemed almost too casual for the potentially dangerous work our small group would be doing. He demonstrated the two main principles of glass-making to our small group.
@@ -33,8 +33,8 @@ At the glass-making workshop, I met our instructor Fabio. He stood next to white
 I decided to make something simple, a teardrop. I melted gold and sparkly glass into the center and wrapped it with layers of clear, green, and red glass to add layers and give it a toy marble-like appearance. Fabio came by after I had shaped the circular ball and helped trim it into a proper teardrop shape. It came out quite well for my first attempt!
 
 <div class="side-by-side">
-  <img alt="Through Venice Canals" src="{teardrop}">
-  <img alt="Fellow Gondola Riders" src="{fish}">
+  <Img alt="Through Venice Canals" src="{teardrop}" />
+  <Img alt="Fellow Gondola Riders" src="{fish}" />
 </div>
 <span class="caption">My Teardrop Vs Fabio's Fish</span>
 
@@ -75,11 +75,11 @@ Frankly, the tour was a magical experience. The weather was perfect at around 65
 </video>
 
 <div class="side-by-side photo-row">
-  <img alt="Through Venice Canals" src="{canals}">
-  <img alt="Fellow Gondola Riders" src="{fellow_gondola_riders}">
+  <Img alt="Through Venice Canals" src="{canals}" />
+  <Img alt="Fellow Gondola Riders" src="{fellow_gondola_riders}" />
 </div>
 
-![My New Dating Profile Picture]({dating_profile_pic})
+<Img src={dating_profile_pic} alt="My New Dating Profile Picture" />
 <span class="caption">My New Dating App Profile Picture</span>
 
 I did meet up with Katie and Annie that evening for dinner. We had another night out, but it was relatively uneventful compared to the first. Katie and I spent more time with each other that night and we found some time to dance, but little else happened. I lacked some of that confidence that Sam had demonstrated. Maybe we both had some things to learn from one another. Katie and I hugged goodbye the following morning as I departed for my train from Venice to Florence. One adventure finished and off to the next.

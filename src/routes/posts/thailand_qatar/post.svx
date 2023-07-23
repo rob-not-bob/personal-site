@@ -6,16 +6,17 @@ heroImageUrl: ./lubd_grafitti.webp
 ---
 
 <script>
-  import airport_field from './airport_field.webp';
-  import airport_terminal from './airport_terminal.webp';
-  import angkor_wat_reflection from './angkor_wat_reflection.jpg';
+  import Img from '@zerodevx/svelte-img'
+  import airport_field from './airport_field.webp?run';
+  import airport_terminal from './airport_terminal.webp?run';
+  import angkor_wat_reflection from './angkor_wat_reflection.jpg?run';
   import armania from './armania.webm';
   import illuzion_confetti from './illuzion_confetti.webm';
   import illuzion_lights from './illuzion_lights.webm';
-  import lubd_grafitti from './lubd_grafitti.webp';
-  import meal_1_airline_2 from './meal_1_airline_2.webp';
-  import pool_party_2 from './pool_party_2.webp';
-  import soccer_chocolate from './soccer_chocolate.webp';
+  import lubd_grafitti from './lubd_grafitti.webp?run';
+  import meal_1_airline_2 from './meal_1_airline_2.webp?run';
+  import pool_party_2 from './pool_party_2.webp?run';
+  import soccer_chocolate from './soccer_chocolate.webp?run';
 </script>
 
 ## Layover in Qatar
@@ -25,8 +26,8 @@ After my trip to Pompeii, I took a train to Rome to catch my flight. Unfortunate
 My flight with Qatar Airlines was luxurious. The onboard meals were fantastic for airplane food and good even by normal food standards. There was some delicious vegetable salad with goat cheese, some of what looked like chicken curry with rice, bread, and orange juice (at my request), and a pudding-like desert with a white chocolate soccer ball embedded into it. The people next to me ordered white wine. When they did, our hostess asked if they wanted sparkling or not. All of this was free.
 
 <div class="side-by-side">
-  <img src="{meal_1_airline_2}" alt="Not your typical airline food" />
-  <img src="{soccer_chocolate}" alt="White Chocolate Soccerball" />
+  <Img src="{meal_1_airline_2}" alt="Not your typical airline food" />
+  <Img src="{soccer_chocolate}" alt="White Chocolate Soccerball" />
 </div>
 <span class="caption">Not your typical airline food</span>
 
@@ -35,8 +36,8 @@ Qatar's airport is the #1 rated airport in the world. I got to see a bit of why 
 I ran into a couple of football fans that wanted a photo. Upon throwing their arms around one another to pose, one of them loudly proclaimed, "We're gay." They weren't, as far as I could tell. Just drunk and having fun. Fortunately, it didn't seem that anyone heard them, but it made me hesitate. They pranced away singing to me in somewhat broken English. "Gay, no no Qatar. No No Qatar", fully aware of the possible repercussions of their joke.
 
 <div class="side-by-side">
-  <img src="{airport_terminal}" alt="Qatar Airport Terminal" />
-  <img src="{airport_field}" alt="Qatar Airport Soccer Field" />
+  <Img src="{airport_terminal}" alt="Qatar Airport Terminal" />
+  <Img src="{airport_field}" alt="Qatar Airport Soccer Field" />
 </div>
 <span class="caption">Qatar Airport</span>
 
@@ -55,8 +56,8 @@ The next day I took a taxi down to Patong beach which offered a long beachfront 
 ## Patong Beach
 
 <div class="side-by-side">
-  <img src="{pool_party_2}" alt="Lub D Pool Party" />
-  <img src="{lubd_grafitti}" alt="Grafitti Artist Commision for Lub D" />
+  <Img src="{pool_party_2}" alt="Lub D Pool Party" />
+  <Img src="{lubd_grafitti}" alt="Grafitti Artist Commision for Lub D" />
 </div>
 <span class="caption">Lub D Hostel - Phucket</span>
 
@@ -103,5 +104,5 @@ A few more days in Patong beach passed this way. I think it's my favorite place 
 
 It had to come to an end at some point. I scheduled a tour of a few nearby islands and would then head off to Phi Phi island, known to be even wilder than Patong beach.
 
-<iframe src="https://www}le.com/maps/d/embed?mid=1ppfiNBzRsvCNOV2aofMntABH3TolVGM&ehbc=2E312F" width="640" height="480"></iframe>
+<iframe src="https://www.google.com/maps/d/embed?mid=1ppfiNBzRsvCNOV2aofMntABH3TolVGM&ehbc=2E312F" width="640" height="480"></iframe>
 <span class="caption">Journey to Thailand</span>

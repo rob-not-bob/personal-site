@@ -6,6 +6,7 @@ heroImageUrl: https://barstalker.de/wp-content/uploads/2022/03/Mayaimi-Vice.jpg
 ---
 
 <script>
+  import Img from '@zerodevx/svelte-img'
   import vondelparkMp4 from './vondelpark.mp4';
 </script>
 
@@ -17,7 +18,7 @@ I had some great experiences at the last hostel and hung out with people who I g
 
 As I result, I decided to go out drinking on my own. I found this very slick cocktail bar called Super Lyan. Located within the Kimpton De Witt hotel, they have a very attentive staff. I ordered what first caught my eye. A Mayaimi Vice. "Cocchi Rosa strawberry colad, topped with coconut daiquiri foam." Two drinks in one according to the menu. The foam takes up a significant portion of the drink and has a refreshing desert-like quality. It's sweet but the coconut makes it feel fresh. Over time, it starts to blend into the strawberry colad lying below. The two flavors complement each other well. Excellent all around. If you visit Amsterdam put this place on your list.
 
-![Mayaimi Vice](https://barstalker.de/wp-content/uploads/2022/03/Mayaimi-Vice.jpg)
+<img src=https://barstalker.de/wp-content/uploads/2022/03/Mayaimi-Vice.jpg alt="Mayaimi Vice" />
 <span class="caption">Mayaimi Vice</span>
 
 I returned to the hostel and saw a cute Asian girl sitting by herself charging her phone. I then did something I had never done before. Something that I had built up in my mind to be a massive obstacle.
@@ -35,8 +36,12 @@ I walked up and talked to her. It was frankly impressive how smoothly it went af
 Ever present in our hostel was a scoreboard. It boldly listed the maximum amount of Yeager bombs anyone had ever ordered in a single order. The record was an impressive 164. However, that number was up for a challenge that night. A group of people decided to try and break that record together. They purchased a round of 200 shots!
 
 <div class="side-by-side">
-  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz8cEjS0QgL1AmWJJq5K_PhKzInfujLSwypx7FoBksLm9cwk71Bv_lw3crQbBxJEa0EI00uV_Re6NJAYRL_aZndUx3GBLuui7HYo9xXS3xmYv2QTy6mL2wfDbOYZmIyAw3AwWkF8b-avexVVIotSTk3preQFkhC8fNdk9Oalw2-3SS9SOAtFU290Wg/s6301/20221009_215327.jpg"><img alt="200 Jager Bombs" data-original-height="6301" data-original-width="4509" height="640" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz8cEjS0QgL1AmWJJq5K_PhKzInfujLSwypx7FoBksLm9cwk71Bv_lw3crQbBxJEa0EI00uV_Re6NJAYRL_aZndUx3GBLuui7HYo9xXS3xmYv2QTy6mL2wfDbOYZmIyAw3AwWkF8b-avexVVIotSTk3preQFkhC8fNdk9Oalw2-3SS9SOAtFU290Wg/s320/20221009_215327.jpg" width="458" /></a>
-  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXOSoHKyOWgemu6QuVdGmhe-eHJe7QlCtjuYoXbH2ScjotnMKFbDCjeXw-ewQdS-e_9DDedI3G7of4vQFrgfB_ut25LD9iiYJZBJtHF7xMfu6kA_HdcnAkRWuc_GeMOJoGkEUEOdiaF_w14_IqdjXeCURXGdQ4_JDbEDWwwuTcd0QchdvHFOfc7MJi/s7416/20221009_094257.jpg"><img alt="Jager Bomb Scoreboard" data-original-height="7416" data-original-width="4710" height="640" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXOSoHKyOWgemu6QuVdGmhe-eHJe7QlCtjuYoXbH2ScjotnMKFbDCjeXw-ewQdS-e_9DDedI3G7of4vQFrgfB_ut25LD9iiYJZBJtHF7xMfu6kA_HdcnAkRWuc_GeMOJoGkEUEOdiaF_w14_IqdjXeCURXGdQ4_JDbEDWwwuTcd0QchdvHFOfc7MJi/s320/20221009_094257.jpg" width="406" /></a>
+  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz8cEjS0QgL1AmWJJq5K_PhKzInfujLSwypx7FoBksLm9cwk71Bv_lw3crQbBxJEa0EI00uV_Re6NJAYRL_aZndUx3GBLuui7HYo9xXS3xmYv2QTy6mL2wfDbOYZmIyAw3AwWkF8b-avexVVIotSTk3preQFkhC8fNdk9Oalw2-3SS9SOAtFU290Wg/s6301/20221009_215327.jpg">
+    <img alt="200 Jager Bombs" data-original-height="6301" data-original-width="4509" height="640" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz8cEjS0QgL1AmWJJq5K_PhKzInfujLSwypx7FoBksLm9cwk71Bv_lw3crQbBxJEa0EI00uV_Re6NJAYRL_aZndUx3GBLuui7HYo9xXS3xmYv2QTy6mL2wfDbOYZmIyAw3AwWkF8b-avexVVIotSTk3preQFkhC8fNdk9Oalw2-3SS9SOAtFU290Wg/s320/20221009_215327.jpg" width="458" />
+  </a>
+  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXOSoHKyOWgemu6QuVdGmhe-eHJe7QlCtjuYoXbH2ScjotnMKFbDCjeXw-ewQdS-e_9DDedI3G7of4vQFrgfB_ut25LD9iiYJZBJtHF7xMfu6kA_HdcnAkRWuc_GeMOJoGkEUEOdiaF_w14_IqdjXeCURXGdQ4_JDbEDWwwuTcd0QchdvHFOfc7MJi/s7416/20221009_094257.jpg">
+    <img alt="Jager Bomb Scoreboard" data-original-height="7416" data-original-width="4710" height="640" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXOSoHKyOWgemu6QuVdGmhe-eHJe7QlCtjuYoXbH2ScjotnMKFbDCjeXw-ewQdS-e_9DDedI3G7of4vQFrgfB_ut25LD9iiYJZBJtHF7xMfu6kA_HdcnAkRWuc_GeMOJoGkEUEOdiaF_w14_IqdjXeCURXGdQ4_JDbEDWwwuTcd0QchdvHFOfc7MJi/s320/20221009_094257.jpg" width="406" />
+  </a>
 </div>
 <span class="caption">Jesus</span>
 
@@ -46,7 +51,7 @@ After working the following day, I met a great group of people. Two guys were pl
 
 They also met up with a girl named Stella. An 18-year-old Irish girl. Most of our group was guys in their mid 20's, but we were all enamored with Stella in a purely platonic sense. Her Irish upbringing meant she had started drinking around 12 which, funnily enough, meant that she had been drinking about as long as most of the guys in the group. Her charm again from the contrast between her young appearance, adorable Irish accent, and yet her surprisingly mature and kind attitude.
 
-![Me, Matt & Mitch](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGs3fXAMkw9aK1rfTPEBU0kVPNO7HYOoyBGhSsqEbIXAorLj-K5HNNcm-Iy2YP6fFETZvKm_u3vYQExGTVS4eBRbdbxjVlXDMEjzGfryc442_anLBvDSciEQR_BE_aV8TeQFsD75D-9C6_gRIvr8h_2xMiwhAxCzLYz39NGOXgC5i84R4dd0Y-TZy4/s320/Screenshot_20221011-173508_Instagram.jpg)
+<img src=https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGs3fXAMkw9aK1rfTPEBU0kVPNO7HYOoyBGhSsqEbIXAorLj-K5HNNcm-Iy2YP6fFETZvKm_u3vYQExGTVS4eBRbdbxjVlXDMEjzGfryc442_anLBvDSciEQR_BE_aV8TeQFsD75D-9C6_gRIvr8h_2xMiwhAxCzLYz39NGOXgC5i84R4dd0Y-TZy4/s320/Screenshot_20221011-173508_Instagram.jpg alt="Me, Matt & Mitch" />
 <span class="caption">Me, Matt & Mitch</span>
 
 This group was a ton of fun. The varied dynamics among the group members made for a memorable and fun night of good conversation. We didn't do anything super special that night, only having some drinks and smoking some weed and yet that group will remain one of the highlights of my trip to Amsterdam.
@@ -56,12 +61,20 @@ Wednesday I went on a food tour of Amsterdam. Met up with the group and was take
 We also had a smoked bacon sandwich, some fried fish, brined halibut, and Stroop waffle. All very good. We spent some time touring the city on the back of some bikes that we rented. Riding a bike through Amsterdam is stressful but fun. The city does everything in its power to empower you as a bicyclist. Everyone on the road and streets are required to yield to bikes which put you at the top of the food chain. However, bicyclists themselves are who you need to watch out for. People ride recklessly and are used to the chaotic, seemingly rule-free nature of Amsterdam's streets. A couple of folks in our food tour group grew overwhelmed and while there were no accidents it was clear to everyone that we were not natives to Amsterdam's streets.
 
 <div class="side-by-side photo-row">
-  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ7brbxHtfiIlmakP6Ge0tRp66pjWQl516YglbTcHmFcjelLLobmBVTw47yHTd4ox8c3VlmgzH_uOzEpnLjV2phPMH9-VxMnumn6si6LEwNxYSJ2zGEteTH578CJfGHpHeuBrt_ngBj6Ch58zJQaQ6gthceHczXBrB7_ViKGhcOQhOOhuQjkYYOHL2/s4032/IMG_5877.jpeg"><img alt="Me with bacon sandwich" data-original-height="4032" data-original-width="3024" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ7brbxHtfiIlmakP6Ge0tRp66pjWQl516YglbTcHmFcjelLLobmBVTw47yHTd4ox8c3VlmgzH_uOzEpnLjV2phPMH9-VxMnumn6si6LEwNxYSJ2zGEteTH578CJfGHpHeuBrt_ngBj6Ch58zJQaQ6gthceHczXBrB7_ViKGhcOQhOOhuQjkYYOHL2/s320/IMG_5877.jpeg" /></a>
-  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYK1_zaPBC0rRGUZANwHbhNjInXy7pQt4_PT5JZ7eUq-R7d2bIfdbhWtVGrXO3jtiGJMsTTdq-Z9cw_9HEeJhPpzNsZ5DpGwEgh9-dHHV6anE2lADhVrpdWGexc1OnOzAWo_wDeg5JFFZvvzXCyFsi-chr6cwEZxQEkaSEHTUrTeaEH9L34O0YNN-h/s4032/IMG_5890.jpeg"><img alt="Me on bike at start of food tour" data-original-height="4032" data-original-width="3024" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYK1_zaPBC0rRGUZANwHbhNjInXy7pQt4_PT5JZ7eUq-R7d2bIfdbhWtVGrXO3jtiGJMsTTdq-Z9cw_9HEeJhPpzNsZ5DpGwEgh9-dHHV6anE2lADhVrpdWGexc1OnOzAWo_wDeg5JFFZvvzXCyFsi-chr6cwEZxQEkaSEHTUrTeaEH9L34O0YNN-h/s320/IMG_5890.jpeg" /></a>
+  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ7brbxHtfiIlmakP6Ge0tRp66pjWQl516YglbTcHmFcjelLLobmBVTw47yHTd4ox8c3VlmgzH_uOzEpnLjV2phPMH9-VxMnumn6si6LEwNxYSJ2zGEteTH578CJfGHpHeuBrt_ngBj6Ch58zJQaQ6gthceHczXBrB7_ViKGhcOQhOOhuQjkYYOHL2/s4032/IMG_5877.jpeg">
+    <img alt="Me with bacon sandwich" data-original-height="4032" data-original-width="3024" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ7brbxHtfiIlmakP6Ge0tRp66pjWQl516YglbTcHmFcjelLLobmBVTw47yHTd4ox8c3VlmgzH_uOzEpnLjV2phPMH9-VxMnumn6si6LEwNxYSJ2zGEteTH578CJfGHpHeuBrt_ngBj6Ch58zJQaQ6gthceHczXBrB7_ViKGhcOQhOOhuQjkYYOHL2/s320/IMG_5877.jpeg" />
+  </a>
+  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYK1_zaPBC0rRGUZANwHbhNjInXy7pQt4_PT5JZ7eUq-R7d2bIfdbhWtVGrXO3jtiGJMsTTdq-Z9cw_9HEeJhPpzNsZ5DpGwEgh9-dHHV6anE2lADhVrpdWGexc1OnOzAWo_wDeg5JFFZvvzXCyFsi-chr6cwEZxQEkaSEHTUrTeaEH9L34O0YNN-h/s4032/IMG_5890.jpeg">
+    <img alt="Me on bike at start of food tour" data-original-height="4032" data-original-width="3024" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYK1_zaPBC0rRGUZANwHbhNjInXy7pQt4_PT5JZ7eUq-R7d2bIfdbhWtVGrXO3jtiGJMsTTdq-Z9cw_9HEeJhPpzNsZ5DpGwEgh9-dHHV6anE2lADhVrpdWGexc1OnOzAWo_wDeg5JFFZvvzXCyFsi-chr6cwEZxQEkaSEHTUrTeaEH9L34O0YNN-h/s320/IMG_5890.jpeg" />
+  </a>
 </div>
 <div class="side-by-side">
-  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSlW-UW5vzl22BNeBePonQLz7tQfp9Ng2Cer8uUyWk2ITcWayJyWXNjICPkEEaKzY6ITG7S5XhbTjz5B6eMv7qbpjqiC6JChxY_r1_8l3dvB1xitwQklKnf7uwLvs5LcO1nFSgSuAh92Scyr5tDotYT-yhG0bqCZcH7UwrLNDCiN2zTT5gOBaxepT1/s4032/IMG_5901.jpeg"><img alt="Fried halibut" data-original-height="4032" data-original-width="3024" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSlW-UW5vzl22BNeBePonQLz7tQfp9Ng2Cer8uUyWk2ITcWayJyWXNjICPkEEaKzY6ITG7S5XhbTjz5B6eMv7qbpjqiC6JChxY_r1_8l3dvB1xitwQklKnf7uwLvs5LcO1nFSgSuAh92Scyr5tDotYT-yhG0bqCZcH7UwrLNDCiN2zTT5gOBaxepT1/s320/IMG_5901.jpeg" /></a>
-  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgke2Tbs6FTfPTS1IWKx9nGj1N4EElBF8y6SlupIKQQ6ep_9arJpv3rR40dR-C-wdIXbhhTdTbnFT-xoufvjm2bKOnGvtF4BOMHG20mnwHWRAg4OJ-sUuVgITL7CZZjNuFXmd3_Wz_YKWEjnazi0hUsjfh18pCH_haww4iespBYtSkntHtA5VFpsCn/s4032/IMG_5870.jpeg"><img alt="Apple Tart" data-original-height="4032" data-original-width="3024" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgke2Tbs6FTfPTS1IWKx9nGj1N4EElBF8y6SlupIKQQ6ep_9arJpv3rR40dR-C-wdIXbhhTdTbnFT-xoufvjm2bKOnGvtF4BOMHG20mnwHWRAg4OJ-sUuVgITL7CZZjNuFXmd3_Wz_YKWEjnazi0hUsjfh18pCH_haww4iespBYtSkntHtA5VFpsCn/s320/IMG_5870.jpeg" /></a>
+  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSlW-UW5vzl22BNeBePonQLz7tQfp9Ng2Cer8uUyWk2ITcWayJyWXNjICPkEEaKzY6ITG7S5XhbTjz5B6eMv7qbpjqiC6JChxY_r1_8l3dvB1xitwQklKnf7uwLvs5LcO1nFSgSuAh92Scyr5tDotYT-yhG0bqCZcH7UwrLNDCiN2zTT5gOBaxepT1/s4032/IMG_5901.jpeg">
+    <img alt="Fried halibut" data-original-height="4032" data-original-width="3024" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSlW-UW5vzl22BNeBePonQLz7tQfp9Ng2Cer8uUyWk2ITcWayJyWXNjICPkEEaKzY6ITG7S5XhbTjz5B6eMv7qbpjqiC6JChxY_r1_8l3dvB1xitwQklKnf7uwLvs5LcO1nFSgSuAh92Scyr5tDotYT-yhG0bqCZcH7UwrLNDCiN2zTT5gOBaxepT1/s320/IMG_5901.jpeg" />
+  </a>
+  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgke2Tbs6FTfPTS1IWKx9nGj1N4EElBF8y6SlupIKQQ6ep_9arJpv3rR40dR-C-wdIXbhhTdTbnFT-xoufvjm2bKOnGvtF4BOMHG20mnwHWRAg4OJ-sUuVgITL7CZZjNuFXmd3_Wz_YKWEjnazi0hUsjfh18pCH_haww4iespBYtSkntHtA5VFpsCn/s4032/IMG_5870.jpeg">
+    <img alt="Apple Tart" data-original-height="4032" data-original-width="3024" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgke2Tbs6FTfPTS1IWKx9nGj1N4EElBF8y6SlupIKQQ6ep_9arJpv3rR40dR-C-wdIXbhhTdTbnFT-xoufvjm2bKOnGvtF4BOMHG20mnwHWRAg4OJ-sUuVgITL7CZZjNuFXmd3_Wz_YKWEjnazi0hUsjfh18pCH_haww4iespBYtSkntHtA5VFpsCn/s320/IMG_5870.jpeg" />
+  </a>
 </div>
 <span class="caption">Food Tour</span>
 
