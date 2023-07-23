@@ -2,82 +2,99 @@
 title: Bali
 author: Robert Allen
 date: 02-02-2023
-heroImageUrl: ./sunset_01.webp
+heroImageUrl: ./sunset_01.jpg
 ---
 
 <script>
   import Img from '@zerodevx/svelte-img'
-  import group_pic from './group_pic.jpg';
-  import group_pic_webp from './group_pic.webp';
-  import hostel_2_webp from './hostel_2.webp';
+  import group_pic from './group_pic.jpg?run';
+  import hostel_2 from './hostel_2.webp?run';
   import hostel_kittens from './hostel_kittens.mov';
   import hostel_kittens_webm from './hostel_kittens.webm';
-  import padi_cert from './padi_cert.jpg';
-  import padi_cert_webp from './padi_cert.webp';
-  import sunset_01 from './sunset_01.jpg';
-  import sunset_01_webp from './sunset_01.webp';
-  import sunset_02 from './sunset_02.jpg';
-  import sunset_02_webp from './sunset_02.webp';
-  import sunset_03 from './sunset_03.jpg';
-  import sunset_03_webp from './sunset_03.webp';
-  import sunset_horizontal from './sunset_horizontal.mov';
-  import sunset_horizontal_webm from './sunset_horizontal.webm';
-  import sunset_purple_01 from './sunset_purple_01.jpg';
-  import sunset_purple_01_webp from './sunset_purple_01.webp';
-  import sunset_purple_02 from './sunset_purple_02.jpg';
-  import sunset_purple_02_webp from './sunset_purple_02.webp';
+  import sunset_01 from './sunset_01.jpg?run';
+  import sunset_02 from './sunset_02.jpg?run';
+  import sunset_03 from './sunset_03.jpg?run';
+  import sunset_purple_01 from './sunset_purple_01.jpg?run';
+  import sunset_purple_02 from './sunset_purple_02.jpg?run';
   import sunset_vertical from './sunset_vertical.mov';
   import sunset_vertical_webm from './sunset_vertical.webm';
 </script>
 
-Hello World
+I landed in Bali after my refreshing stay in Singapore. Immediately I had to get through customs. It was a long line, but I got through easily. I was accustomed to customs by this point. I grabbed a taxi and set out towards my hostel in Changgu. 
 
-Dive Site 1: Padong Bay, Bali. Blue Lagoon 35 Minutes Max depth 12.0 M
-Dive Site 2: Padong Bay, Bali. Gepun Bay 41 Minutes. Max depth 11.5 M
-Dive Site 3: Tulamben, Bali. USAT Liberty Shipwreck 40 minutes. Max depth 17.4 M
-Dive Site 4: Tulamben, Bali. USAT Liberty Shipwreck 40 minutes. Max depth 19.2 M
+I arrived at Surf & Party - Hostel Somewhere Else, where the atmosphere hummed with lively energy. On the first evening, a "family dinner" took us to the beach, where the sky flaunted a brilliant pink - my first taste of a Balinese sunset.
 
-<picture>
-  <source srcset="{group_pic_webp}" type="image/webp" />
-  <img src="{group_pic}" alt="Hostel Friends" />
-</picture>
-<picture>
-  <img src="{hostel_2_webp}" alt="Second Hostel I Visited In Bali" />
-</picture>
-<picture>
-  <source srcset="{padi_cert_webp}" type="image/webp" />
-  <img src="{padi_cert}" alt="My PADI Certification" />
-</picture>
-<picture>
-  <source srcset="{sunset_01_webp}" type="image/webp" />
-  <img src="{sunset_01}" alt="Bali Sunset" />
-</picture>
-<picture>
-  <source srcset="{sunset_02_webp}" type="image/webp" />
-  <img src="{sunset_02}" alt="Bali Sunset" />
-</picture>
-<picture>
-  <source srcset="{sunset_03_webp}" type="image/webp" />
-  <img src="{sunset_03}" alt="Bali Sunset" />
-</picture>
-<picture>
-  <source srcset="{sunset_purple_01_webp}" type="image/webp" />
-  <img src="{sunset_purple_01}" alt="Bali Sunset - Purple" />
-</picture>
-<picture>
-  <source srcset="{sunset_purple_02_webp}" type="image/webp" />
-  <img src="{sunset_purple_02}" alt="Bali Sunset - Purple" />
-</picture>
+<Img src="{sunset_01}" alt="Bali Sunset" />
+
+The hostel's main attraction was its morning surf lessons, segmented according to skill levels. Led by local instructors who seemed to ride the waves as naturally as they breathed, I joined as a beginner, but I had surfed a few times before in California. Nevertheless, the lessons were challenging, but I quickly moved to the intermediate level.
+
+As I progressed, smaller boards came my way, more responsive, but requiring more strength to maneuver. The biggest hurdle on my surfing journey was to catch a wave on my own. It required a quick burst of speed, a sound understanding of the ocean’s rhythm, and a dash of luck; none of which I possessed.
+
+Post-session, the hostel offered a smoothie treat and a photo/video review of the day's surf lesson. They quickly diagnosed issues and prescribed solutions to fuel our growth. A few weeks with them would improve anyone's abilities.
+
+<Img src="{sunset_02}" alt="Bali Sunset" />
+
+Afternoons would roll into evenings, and the guests would gather for idle chatter or group activity. However, unlike my previous travels, I wasn't here to sightsee or cram in all the touristy "must-dos". My goal in Bali was to take a break from that style of travel. Previous countries had begun to feel like a checklist of activities to do and sights to see before I moved on to the next. 
+
+Socializing suffered in the same way. Since I was always on the move, I was constantly introducing myself. Rarely would the conversations progress beyond skin deep. Same script, different day, different city. "Where are you from?", "How long are you here?", "Where have you been so far?", "What do you do?". It had become routine. Less of an engaging conversation and more of an autopilot response. I started to withdraw from people to avoid the monotonous conversations.
+
+In Bali, I was taking a different approach. I slowed down and stayed in the same place longer. Hostel Somewhere Else provided a great environment to do just that. Each day I could focus on learning to surf with the group around me. The conversations quickly moved on from the standard script I had memorized.
+
+<Img src="{group_pic}" alt="Hostel Friends" />
+
+With my mornings dedicated to conquering waves, my evenings found a new focus: learning scuba diving. A friend I had made at the hostel mentioned that Bali was one of the cheapest places to earn a scuba certification. I was looking to kill time before heading to Japan at the end of the month and this seemed like the perfect way to do it.
+
+The diving certification process began with a series of instructional videos that needed to learn before diving (ha! get it??) into the real deal. My days soon fell into a comforting pattern - surfing in the morning, online diving lessons in the evening. It was a nice balance and was the first real routine I had had in many months.
+
+Once the online part of my course was complete, I was ready to get my feet wet. The in-person class spanned three days. Day one was to take place in a pool. Here, we learned about the equipment, took a swimming endurance test, and practiced diving skills such as respirator clearing and handling emergencies. I had a dive buddy, another student, and a man in his early 30s. He was my diving buddy and rival over the next three days.
+
+After our day in the pool, our instructor said something interesting. "Diving is an easy skill." As paradoxical as it sounded, it made sense. It had to be easy; you wouldn't want to struggle with complex tasks several feet under the water with a finite supply of oxygen. The ability to stay calm and not panic seemed to be the most important skill I could learn.
+
+<Img src="{hostel_2}" alt="Second Hostel I Visited In Bali" />
+<video width="468" height="830" controls muted>
+  <source src="{hostel_kittens_webm}" type="video/webm">
+  <source src="{hostel_kittens}" type="video/mp4">
+</video>
+
+Panic was a real enemy here; it consumed oxygen faster, led to inefficient movements, and could make you forget vital skills that kept me and my diving buddy safe. I found it easier to rotate my hips back and forth to move my legs rather than kicking them. My hands cradled each other as I slowly trailed my instructor. The underwater world was meant to be explored with ease.
+
+On the second day of my certification, we would take our first real dive into the ocean. We set off for Padang Bay at Blue Lagoon. Here, we plunged into new a world. We spent 35 minutes down there. We started by demonstrating a few skills we had learned in the pool to our instructor. My partner was a bit more nimble than me, but our instructor was encouraging. He assured us that we were both making good progress. Once the skill demonstrations were complete, we began exploring.
+
+Swimming leisurely, we followed our instructor through an aquatic wonderland of fish of every shape, size, and color, and corals that looked like exotic underwater trees. The reef stretched downwards, its' bottom invisible to our eyes. It felt like being at the foot of an underwater mountain range, the valleys hidden in the space below.
+
+<Img src="{sunset_03}" alt="Bali Sunset" />
+
+Later in the evening, we did another dive, this time at Gepun Bay. This dive lasted for 41 minutes. Here again, the focus was on exploring and appreciating the underwater sights. I was more comfortable with this dive, having grown somewhat accustomed to the underwater world.
+
+Our third and final day of scuba lessons was more of the same: two dives, with a short skill demonstration at the start. This time, however, the dive site would be much more interesting. Tulamben, home to the famed USAT Liberty shipwreck.
+
+USAT Liberty, an American cargo ship used during both World Wars, was torpedoed by a Japanese submarine in 1942. Unable to make it to the port, the ship was beached on the shores of Tulamben. A volcanic eruption in 1963 caused the ship to slide off the beach and into the water where it now lies on a sand slope in 9 to 30 m of water, just a short swim from the beach.
+
+<Img src="{sunset_purple_02}" alt="Bali Sunset - Purple" />
+
+Entering the water, you could see the shadowy silhouette of the ship lying sideways on the sandy seabed. As we descended, the details of the ship slowly came into focus. It took me some time to realize that the giant object we were approaching was the ship. I had not expected it to be so huge.
+
+Life swarmed endlessly all over the ship. The ship had turned into a veritable artificial reef. Brightly colored coral clung to the rusted metal. Schools of colorful fish I didn't recognize swarmed over its surface. Our instructor took time to point out fish we may recognize. We got to see clownfish playing with sea anemones and lionfish whose spiky quills should be avoided.
+
+Our instructors loved their job. They emerged from the water with big smiles on their faces and would talk about the various fish they had seen. The PADI instructors at my school in Bali were like a tight-knit family. They spent a lot of time with each other, not only at work but also at local bars.
+
+With our final dives complete, we both successfully earned our PADI certifications. Our instructor attempted to convince us to earn our advanced certification which would require more online training and a couple more dives but would allow us to dive to deeper depths. Sadly my flight out of Bali was rapidly approaching and it's best to leave some time between diving and flying to avoid the infamous bends. 
+
+<Img src="{sunset_purple_01}" alt="Bali Sunset - Purple" />
+
+I called my Dad shortly after. He had been an avid diver in the past and made a practice of wearing his dive watch everywhere he went. Many divers do the same, a covert signal of their hobby. We promised to go diving together someday. 
+
+With my final day in Bali coming to a close, I stayed at a hotel close to the airport and enjoyed a nice dinner while I reflected on my time here. My time in the hostels learning to surf had brought a much-needed routine to my hectic lifestyle. I made several friends during my time here. A Russian avoiding his country and the draft with it. An Austrian playboy spending half his time in the bars and half on the waves. A Maldivian programmer who seemed more at home in the water than on the land. 
+
+As a programmer myself, it was this last friend I felt the closest to. On one of our nights out after a day of surfing, we were enjoying some beer while watching the distinctly pink and purple Balinese sunset. He told me something that I had to agree with. We didn't fit in here. We reflected on that statement as we overlooked the beach, staring down at the groups of influencers posing in bikinis with the sunset as their backdrop. As beautiful of a place as it was, it was overrun with Australian tourists and influencers. It had a frat-life atmosphere that I've never been able to relate to. 
+
+That style of life can be fun on occasion. I myself had singlehandedly carried my team to the final rounds of a 30-team beer pong tournament during my one night out in Bali, but I found the people that lifestyle attracted grating to be around. The constant partying, the late-night drinking, and the clamor were not my goals while I was in Bali.
+
+Yet, in the weeks I spent there, Bali provided what I needed. A break from the fast-paced sightseeing, a chance to learn new skills, and an opportunity to connect beyond the surface level.  I was there for the surf, the scuba, and the connections I made in the ocean rather than at the bar.
+
+I left not just with a tan and a couple of new skills, but also a better understanding of the kind of traveler I wanted to be.
 
 <video width="468" height="830" controls muted>
   <source src="{sunset_vertical_webm}" type="video/webm">
   <source src="{sunset_vertical}" type="video/mp4">
-</video>
-<video width="640" height="360" controls muted>
-  <source src="{sunset_horizontal_webm}" type="video/webm">
-  <source src="{sunset_horizontal}" type="video/mp4">
-</video>
-<video width="468" height="830" controls muted>
-  <source src="{hostel_kittens_webm}" type="video/webm">
-  <source src="{hostel_kittens}" type="video/mp4">
 </video>

@@ -16,8 +16,9 @@ export const posts = [
     title: 'Bali',
     author: 'Robert Allen',
     date: '02-02-2023',
-    heroImageUrl: import('./posts/bali/sunset_01.webp?run'),
-    description: 'Hello World'
+    heroImageUrl: import('./posts/bali/sunset_01.jpg?run'),
+    description:
+      'I landed in Bali after my refreshing stay in Singapore. Immediately I had to get through customs. It was a long line, but I got through easily. I was accustomed to customs by this point. I grabbed a taxi and set out towards my hostel in Changgu. '
   },
   {
     href: '/posts/cambodia',
