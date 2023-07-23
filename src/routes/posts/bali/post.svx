@@ -24,7 +24,7 @@ I landed in Bali after my refreshing stay in Singapore. Immediately I had to get
 
 I arrived at Surf & Party - Hostel Somewhere Else, where the atmosphere hummed with lively energy. On the first evening, a "family dinner" took us to the beach, where the sky flaunted a brilliant pink - my first taste of a Balinese sunset.
 
-<Img src="{sunset_01}" alt="Bali Sunset" />
+<Img src="{sunset_01}" alt="Bali Sunset" class="photo-row" />
 
 The hostel's main attraction was its morning surf lessons, segmented according to skill levels. Led by local instructors who seemed to ride the waves as naturally as they breathed, I joined as a beginner, but I had surfed a few times before in California. Nevertheless, the lessons were challenging, but I quickly moved to the intermediate level.
 
@@ -32,7 +32,7 @@ As I progressed, smaller boards came my way, more responsive, but requiring more
 
 Post-session, the hostel offered a smoothie treat and a photo/video review of the day's surf lesson. They quickly diagnosed issues and prescribed solutions to fuel our growth. A few weeks with them would improve anyone's abilities.
 
-<Img src="{sunset_02}" alt="Bali Sunset" />
+<Img src="{sunset_02}" alt="Bali Sunset" class="photo-row" />
 
 Afternoons would roll into evenings, and the guests would gather for idle chatter or group activity. However, unlike my previous travels, I wasn't here to sightsee or cram in all the touristy "must-dos". My goal in Bali was to take a break from that style of travel. Previous countries had begun to feel like a checklist of activities to do and sights to see before I moved on to the next. 
 
@@ -41,6 +41,7 @@ Socializing suffered in the same way. Since I was always on the move, I was cons
 In Bali, I was taking a different approach. I slowed down and stayed in the same place longer. Hostel Somewhere Else provided a great environment to do just that. Each day I could focus on learning to surf with the group around me. The conversations quickly moved on from the standard script I had memorized.
 
 <Img src="{group_pic}" alt="Hostel Friends" />
+<span class="caption">Hostel Friends</span>
 
 With my mornings dedicated to conquering waves, my evenings found a new focus: learning scuba diving. A friend I had made at the hostel mentioned that Bali was one of the cheapest places to earn a scuba certification. I was looking to kill time before heading to Japan at the end of the month and this seemed like the perfect way to do it.
 
@@ -50,11 +51,12 @@ Once the online part of my course was complete, I was ready to get my feet wet. 
 
 After our day in the pool, our instructor said something interesting. "Diving is an easy skill." As paradoxical as it sounded, it made sense. It had to be easy; you wouldn't want to struggle with complex tasks several feet under the water with a finite supply of oxygen. The ability to stay calm and not panic seemed to be the most important skill I could learn.
 
-<Img src="{hostel_2}" alt="Second Hostel I Visited In Bali" />
+<Img src="{hostel_2}" alt="Second Hostel I Visited In Bali" class="photo-row" />
 <video width="468" height="830" controls muted>
   <source src="{hostel_kittens_webm}" type="video/webm">
   <source src="{hostel_kittens}" type="video/mp4">
 </video>
+<span class="caption">Hostel Kittens</span>
 
 Panic was a real enemy here; it consumed oxygen faster, led to inefficient movements, and could make you forget vital skills that kept me and my diving buddy safe. I found it easier to rotate my hips back and forth to move my legs rather than kicking them. My hands cradled each other as I slowly trailed my instructor. The underwater world was meant to be explored with ease.
 
@@ -62,7 +64,7 @@ On the second day of my certification, we would take our first real dive into th
 
 Swimming leisurely, we followed our instructor through an aquatic wonderland of fish of every shape, size, and color, and corals that looked like exotic underwater trees. The reef stretched downwards, its' bottom invisible to our eyes. It felt like being at the foot of an underwater mountain range, the valleys hidden in the space below.
 
-<Img src="{sunset_03}" alt="Bali Sunset" />
+<Img src="{sunset_03}" alt="Bali Sunset" class="photo-row" />
 
 Later in the evening, we did another dive, this time at Gepun Bay. This dive lasted for 41 minutes. Here again, the focus was on exploring and appreciating the underwater sights. I was more comfortable with this dive, having grown somewhat accustomed to the underwater world.
 
@@ -70,7 +72,7 @@ Our third and final day of scuba lessons was more of the same: two dives, with a
 
 USAT Liberty, an American cargo ship used during both World Wars, was torpedoed by a Japanese submarine in 1942. Unable to make it to the port, the ship was beached on the shores of Tulamben. A volcanic eruption in 1963 caused the ship to slide off the beach and into the water where it now lies on a sand slope in 9 to 30 m of water, just a short swim from the beach.
 
-<Img src="{sunset_purple_02}" alt="Bali Sunset - Purple" />
+<Img src="{sunset_purple_02}" alt="Bali Sunset - Purple" class="photo-row" />
 
 Entering the water, you could see the shadowy silhouette of the ship lying sideways on the sandy seabed. As we descended, the details of the ship slowly came into focus. It took me some time to realize that the giant object we were approaching was the ship. I had not expected it to be so huge.
 
@@ -80,7 +82,7 @@ Our instructors loved their job. They emerged from the water with big smiles on 
 
 With our final dives complete, we both successfully earned our PADI certifications. Our instructor attempted to convince us to earn our advanced certification which would require more online training and a couple more dives but would allow us to dive to deeper depths. Sadly my flight out of Bali was rapidly approaching and it's best to leave some time between diving and flying to avoid the infamous bends. 
 
-<Img src="{sunset_purple_01}" alt="Bali Sunset - Purple" />
+<Img src="{sunset_purple_01}" alt="Bali Sunset - Purple" class="photo-row" />
 
 I called my Dad shortly after. He had been an avid diver in the past and made a practice of wearing his dive watch everywhere he went. Many divers do the same, a covert signal of their hobby. We promised to go diving together someday. 
 
