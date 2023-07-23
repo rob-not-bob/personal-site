@@ -6,10 +6,6 @@
   export let data;
 </script>
 
-<svelte:head>
-  <title>Rob's Travel Blog</title>
-</svelte:head>
-
 <div class="wrapper">
   <MainHeading
     title="Rob's Travel Blog"

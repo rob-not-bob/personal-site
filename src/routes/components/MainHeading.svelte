@@ -3,6 +3,11 @@
   export let leadText: string;
 </script>
 
+<svelte:head>
+  <title>{title}</title>
+  <meta name="description" content={leadText} />
+</svelte:head>
+
 <div class="mainHeading">
   {#if title}
     <h1 class="title">{title}</h1>
