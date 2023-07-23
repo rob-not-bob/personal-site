@@ -1,4 +1,6 @@
-# create-svelte
+# Rob's Personal Blog
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dc59a0bd-e8f1-4f3b-b8de-1c99fb9bc45a/deploy-status)](https://app.netlify.com/sites/eclectic-clafoutis-9fe459/deploys)
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 

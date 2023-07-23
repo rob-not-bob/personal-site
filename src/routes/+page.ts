@@ -1,5 +1,5 @@
 import type { PageLoad } from './$types';
-import { format } from 'date-fns';
+import { format, parse } from 'date-fns';
 import { posts } from './posts';
 
 const getPostListings = async () => {
@@ -12,7 +12,7 @@ const getPostListings = async () => {
             typeof post.heroImageUrl === 'string'
               ? post.heroImageUrl
               : (await post.heroImageUrl).default,
-          date: format(new Date(post.date), 'MMM d, yyyy')
+          date: format(parse(post.date, 'MM-dd-yyyy', new Date()), 'MMM d, yyyy')
         };
       })
     )
